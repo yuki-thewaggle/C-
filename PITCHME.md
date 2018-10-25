@@ -1,6 +1,5 @@
-# EduvationSummit2018
-
-## test
+# タイピングゲームを作ってみよう
+### Unityでのタイピングゲーム開発
 ---
 
 1. test
