@@ -5,7 +5,7 @@
 
 [Unity公式サイト](https://unity3d.com/jp)
 
-- Unityがあれば様々なゲーム機に対応したゲームが作れる
+- Unityがあれば様々なゲーム機に対応したゲームが作れます
   - iPhone
   - Android
   - PS4
@@ -21,7 +21,7 @@
   - いっしょにチョキッとスニッパーズ
   - ...
 
-- 無料から使える
+- Unityは無料から使えます
 
 ---
 ### Unityをダウンロードしよう
@@ -41,62 +41,165 @@
 
 ---
 
-### 早速作ってみよう①
+### **アセット** をダウンロードする
 
-#### **アセット** を[ここから]()ダウンロードする
+#### アセットとは
 
   - アセットとはゲームの部品のこと
-  - 今回は専用アセットを使ってタイピングゲームを開発していきます
   - Unityにはたくさんの人が無料からアセットを提供する[アセットストア](https://www.assetstore.unity3d.com/jp/)があります
+  - 今回は専用アセットを使ってタイピングゲームを開発していきます
+
+#### 専用アセットをダウンロードする
+
+[こちらのページ](https://github.com/yuki-thewaggle/EduvationSummit2018/blob/master/TheWaggleTypingGame.unitypackage)にアクセスすると以下の画面が出ます
+
+  ![アセットダウンロード](img/GitUnityPackage.PNG)
+
+中央の右寄りにある **Download** ボタンを押してダウンロードしてください
 
 ---
 
-### 早速作ってみよう②
+### unityを起動する
 
-#### unityを起動する
-以下の方法で起動できます
-  - デスクトップのショートカットをダブルクリックする
+デスクトップのショートカットをダブルクリックして起動してください
+
   ![ショートカット](img/UnityShortcut.PNG)
+
+---
+
+### 新規プロジェクトを作成する
+
+新規プロジェクトを作成します
+
+![ショートカット](img/CreateNewProject.PNG)
+
+1. `Project name` を **TypingGame** にします
+1. `Location` を **自分がフォルダを保存したい場所** にします
+1. 他の項目はデフォルトのままで大丈夫です
+
+以上3点が設定出来たら **Create project** ボタンをクリックしてプロジェクトを作成してください
+
+---
+
+### Unityエディタのレイアウトを設定する
+
+このチュートリアルで採用する **Tall** レイアウトに変更します
+
+![デフォルトのレイアウト](img/UnityLayout_before.PNG)
+
+**Window** > **Layouts** > **Tall** を選択してください
+
+![変更後のレイアウト](img/UnityLayout_after.PNG)
+
+このようになります
+
+---
 
 #### Unityにアセットをインポートする
 
+先ほどダウンロードした専用アセットをインポートします
 
+![選択するアセット](img/ImportPackage.PNG)
+
+**TheWaggleTypingGame.unitypackage** を選択して
+
+![開くボタン](img/ImportPackage2.PNG)
+
+**開く** ボタンをクリックしてください
+
+インポートするファイルの選択画面が出てきます
+
+![開くボタン](img/ImportPackage3.png)
+
+デフォルトの状態で **Import** ボタンをクリックしてください
+
+---
+
+### Projectウィンドウからアセットを使う
+
+インポートしたアセット（ゲームの部品）を利用してゲームを作成していきます
+
+#### Projectウィンドウにアセットがインポートされたことを確認する
+
+`Project`ウィンドウの `Assets` の中に画像のようなファイルが展開されていることを確認してください
+
+![インポートしたアセット](img/ImportedAssets.PNG)
 
 ---
 
+### シーンを作る
 
-### Projectウィンドウとアセット
+自分のシーンを作ります
 
+![新規シーン作成](img/Newscene.PNG)
 
----
+**File** > **New Scene** をクリックして新規シーンを作成してください
 
-### `_MyScene` > `MySceneTest`
-シーンとは
+![シーン保存](img/Savescene.PNG)
 
----
+次に **File** > **Save Scene** をクリックしてシーンを保存してください
 
-### PlayMode
-プレイモードとエディットモード
+![シーン名入力](img/Savescene2.PNG)
 
----
-### NewScene
-自分のシーンを作る
+ファイル名に **Main** と入力して **保存** ボタンをクリックしてください
+
+![シーン作成確認](img/CreatedMain.PNG)
+
+このように **Main** と表示されれば保存成功です
+
 ---
 
 ### Prefab
 
-prefabとは
-インスタンスにする
+#### prefabとは
+
+
+#### インスタンスにする
+
+Projectウィンドウにあるアセットを実際の部品として生成します
+
+**Assets** > **_Prefabs** にある 以下のものをすべて **Hierarchy** にドラッグ&ドロップしてください
+
+- BackgroundMusic
+- Floor
+- GameManager
+- HUDCanvas
+- MainCamera
+- MiniMapCamera
+- Player
+
 ---
 ### その他の設定
-1. 1
-1. 2
-1. 3
-1. 4
+
+- **Edit** > **ProjectSettings** > **Input** をクリック
+  - **Axis**  > **Vertical** > **Horizontal** から **a** キー, **d** キーを消す
+  - **Axis**  > **Vertical** > **Vercal** から **s** キー, **w** キーを消す
+
+- **Window** > **Rendering** > **Lighting Settings** の **Skybox Material** を
+**Assets** > **NightmaresProceduralSkybox** にする
+
+
+
+- **Window** > **AI** > **Navigation**
+
+  - NavMeshWalkableFloorのBakeをする(NavigationウィンドウでそのままBakeボタンを押すだけ)
+
+- シーンを新規作成したときに自動生成されるMainCameraとDirectionalLightを削除
 
 
 ---
-### Playする
+#### Playする
+
+Maximize On PlayをONにする
+動きを確かめる
+(`_MyScene` > `MySceneTest`と同じだったらOK)
+
+
+---
+
+#### 問題なければ最後に
+
+LightsとEnvironmentをインスタンス化する
 
 ---
 
