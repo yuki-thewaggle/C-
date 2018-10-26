@@ -38,7 +38,7 @@
 #### 初心者向け Personal を選ぶ
 一番右側の **Personal** から **無料ダウンロード** をクリックする
 
-![ショートカット](img/UnityDownload.PNG)
+![ユニティダウンロード](tingImage/UnityDownload?image=assets/img/monkey.jpg&size=50% 100%&color=lightgray&opacity=100)
 
 ---
 ## 早速つくってみよう
@@ -219,7 +219,7 @@ Projectウィンドウにあるアセットを実際の部品として生成し�
 **Assets** > **NightmaresProceduralSkybox** にする
 
 
-MousePointingFloor を　Floorにレイヤー設定 
+MousePointingFloor を　Floorにレイヤー設定
 
 - **Window** > **AI** > **Navigation**
 
