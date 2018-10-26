@@ -219,10 +219,11 @@ Projectウィンドウにあるアセットを実際の部品として生成し�
 **Assets** > **NightmaresProceduralSkybox** にする
 
 
+MousePointingFloor を　Floorにレイヤー設定 
 
 - **Window** > **AI** > **Navigation**
 
-  - NavMeshWalkableFloorのBakeをする(NavigationウィンドウでそのままBakeボタンを押すだけ)
+  - NavMeshWalkableFloorのBakeをする(MeshRendererをONにしてからNavigationウィンドウでそのままBakeボタンを押すだけ)
 
 - シーンを新規作成したときに自動生成されるMainCameraとDirectionalLightを削除
 
