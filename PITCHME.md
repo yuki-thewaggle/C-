@@ -122,14 +122,11 @@ Unityは無料から使えます
 デスクトップのショートカットをダブルクリックして起動してください
 @snapend
 
----?image=assets/img/CreateNewProject.PNG&size=auto 40%&position=right bottom
+---?image=assets/img/CreateNewProject.PNG&size=auto 60%&position=right bottom
 @title[新規プロジェクトを作成する]
 
 @snap[north-west]
 <h2>@size[0.7em](新規プロジェクトを作成する)</h3>
-@snapend
-
-@snap[south-west]
 <ol>
   <li><i>Project name</i>を<b>TypingGame</b>に</li>
   <li><i>Location</i>を<b>自分がフォルダを保存したい場所</b>に</li>
