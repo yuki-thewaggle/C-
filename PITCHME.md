@@ -4,7 +4,7 @@
 <h1>@size[0.7em](Unityで<br>タイピングゲームを<br>作ってみよう)</h1>
 @snapend
 
----?image=assets/img/UnityHome.PNG&size=auto 60%&position=bottom
+---?image=assets/img/UnityHome.PNG&size=auto 65%&position=bottom
 @title[Unityとは]
 
 @snap[north-west]
@@ -13,7 +13,7 @@
 @snapend
 
 
----?image=assets/img/Gaming.PNG&size=50% auto&position=right
+---?image=assets/img/Gaming.PNG&size=50% auto&position=right bottom
 @title[Unityがあれば]
 
 @snap[north-west]
