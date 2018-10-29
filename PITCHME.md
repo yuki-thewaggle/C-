@@ -187,7 +187,7 @@ Unityは無料から使えます
 これらのファイルが見えることを確認してください
 @snapend
 
----?image=assets/img/Newscene.png&size=auto 60%&position=bottom
+---?image=assets/img/NewScene.png&size=auto 60%&position=bottom
 @title[新規シーンを作成する]
 
 @snap[north-west]
