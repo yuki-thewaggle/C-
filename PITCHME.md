@@ -62,17 +62,17 @@
 Unityは無料から使えます
 @snapend
 
-#### ダウンロードサイトにアクセスする
 ダウンロードサイト
 [https://store.unity.com/ja](https://store.unity.com/ja)
 
----
+---?image=assets/img/UnityDownload.PNG&size=auto 65%&position=bottom
+@title[Unityをダウンロードしよう(2/2)]
 
-### Unityをダウンロードしよう(2/2)
-#### 初心者向け Personal を選ぶ
-一番右側の **Personal** から **無料ダウンロード** をクリックする
+@snap[north-west]
+<h2>@size[0.7em](プランを選ぼう)</h3>
+初心者向け <b>Personal</b> が初心者向けです
+@snapend
 
-![ユニティダウンロード](assets/img/UnityDownload?image=assets/assets/img/monkey.jpg&size=50% 100%&color=lightgray&opacity=100)
 
 ---
 
