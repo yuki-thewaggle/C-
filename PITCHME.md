@@ -1,8 +1,8 @@
 ### タイピングゲームを作ってみよう
 #### Unityでのタイピングゲーム開発
 
----?image=assets/img/UnityHome.PNG&size=70%
-#### Unityとは(1/3)
+---?image=assets/img/UnityHome.PNG&opacity=20
+#### Unity
 [https://unity3d.com/jp](https://unity3d.com/jp)
 
 
