@@ -179,15 +179,15 @@ Unityは無料から使えます
 @snapend
 
 ---?image=assets/img/ImportedAssets.PNG&size=auto 60%&position=bottom
-@title[アセットがインポートされたことを確認する]
+@title[インポートされたことを確認する]
 
 @snap[north-west]
-<h2>@size[0.7em](アセットがインポートされたことを確認する)</h2>
-<i>Project</i>ウィンドウの<i>Assets</i>の中から<br>
-ファイルが見えることを確認してください
+<h2>@size[0.7em](インポートされたことを確認する)</h2>
+<i>Project</i> ウィンドウの <i>Assets</i> の中から<br>
+これらのファイルが見えることを確認してください
 @snapend
 
----?image=assets/img/Newscene.PNG&size=auto 60%&position=bottom
+---?image=assets/img/Newscene.png&size=auto 60%&position=bottom
 @title[新規シーンを作成する]
 
 @snap[north-west]
@@ -196,16 +196,16 @@ Unityは無料から使えます
 新規シーンを作成してください
 @snapend
 
----?image=assets/img/Savescene.PNG&size=auto 60%&position=bottom
+---?image=assets/img/Savescene.png&size=auto 60%&position=bottom
 @title[シーンを保存する]
 
 @snap[north-west]
 <h2>@size[0.7em](シーンを保存する)</h2>
-<b>File</b> > <b>Save Scene</b> をクリックしてください
+<b>File</b> > <b>Save Scene</b> をクリックしてください<br>
 シーンに名前をつけて保存します
 @snapend
 
----?image=assets/img/Savescene.PNG&size=auto 60%&position=bottom
+---?image=assets/img/Savescene2.PNG&size=auto 60%&position=bottom
 @title[シーン名を入力する]
 
 @snap[north-west]
