@@ -1,16 +1,16 @@
 @title[Unityでタイピングゲームを作ってみよう]
 
 @snap[west]
-<h1>@size[0.5em](Unityで<br>タイピングゲームを<br>作ってみよう)</h1>
+<h1>@size[0.7em](Unityで<br>タイピングゲームを<br>作ってみよう)</h1>
 @snapend
 
----
-#### Unity
+---@title[Unity公式サイト]
+### Unity
 [https://unity3d.com/jp](https://unity3d.com/jp)
 
 
-@snap[east sidebar]
-![ICECREAM](assets/img/UnityHome.PNG)
+@snap[west sidebar]
+![UnityHome](assets/img/UnityHome.PNG)
 @snapend
 
 ---?image=assets/img/sean-do-782269-unsplash.jpg&opacity=20%
