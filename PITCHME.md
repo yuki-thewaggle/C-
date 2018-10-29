@@ -255,7 +255,7 @@ Unityは無料から使えます
   ドラッグ&ドロップすることで実際のオブジェクトになります
 </p>
 <p>
-  この動作を<b>インスタンス化/b>といい<br>
+  この動作を<b>インスタンス化</b>といい<br>
   実体化されたオブジェクトを<b>インスタンス</b>といいます
 </p>
 
@@ -263,40 +263,25 @@ https://docs.unity3d.com/ja/current/Manual/Prefabs.html
 https://docs.unity3d.com/ja/current/Manual/InstantiatingPrefabs.html
 
 ---
-#### インスタンスにする(1/2)
-
-Projectウィンドウにあるアセットを実際の部品として生成します
-
----
-#### インスタンスにする(2/2)
-**Assets** > **_Prefabs** にある 以下のものをすべて **Hierarchy** にドラッグ&ドロップしてください
-
-- BackgroundMusic
-- Floor
-- GameManager
-- HUDCanvas
-- MainCamera
-- MiniMapCamera
-- Player
-
----
-### その他の設定
+@title[その他の設定]
 
 - **Edit** > **ProjectSettings** > **Input** をクリック
-  - **Axis**  > **Vertical** > **Horizontal** から **a** キー, **d** キーを消す
-  - **Axis**  > **Vertical** > **Vercal** から **s** キー, **w** キーを消す
+  - **Axis**  > **Vertical** > **Horizontal** から **a** , **d** を消す
+  - **Axis**  > **Vertical** > **Vercal** から **s** , **w** を消す
 
-- **Window** > **Rendering** > **Lighting Settings** の **Skybox Material** を
-**Assets** > **NightmaresProceduralSkybox** にする
+- **Window** > **Rendering** > **Lighting Settings** をクリック
+  - **Skybox Material** のサークルセレクトをクリックして<br>**NightmaresProceduralSkybox** にする
 
+- **Hierarchy** > **MousePointingFloor** をクリック
+  - レイヤーを**Floor**に設定
 
-MousePointingFloor を　Floorにレイヤー設定
-
-- **Window** > **AI** > **Navigation**
-
-  - NavMeshWalkableFloorのBakeをする(MeshRendererをONにしてからNavigationウィンドウでそのままBakeボタンを押すだけ)
-
-- シーンを新規作成したときに自動生成されるMainCameraとDirectionalLightを削除
+- **Hierarchy** > **NavMeshWalkableFloor** をクリックする
+  - **MeshRenderer**のチェックボックスを**チェックがついた状態**にする
+  - **Window** > **AI** > **Navigation** をクリック
+  - **Bake** タブにある **Bake** ボタンをクリックする
+  - **MeshRenderer**のチェックボックスを**チェックが外れた状態**にする
+  
+- シーンを新規作成したときに自動生成される**MainCamera**と**DirectionalLight**を削除する
 
 
 ---
