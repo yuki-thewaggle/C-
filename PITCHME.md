@@ -70,7 +70,7 @@ Unityは無料から使えます
 
 @snap[north-west]
 <h2>@size[0.7em](プランを選ぼう)</h3>
-初心者向け <b>Personal</b> が初心者向けです
+一番右の <b>Personal</b> が初心者向けです
 @snapend
 
 
