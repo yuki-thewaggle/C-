@@ -8,7 +8,7 @@
 @title[Unityとは]
 
 @snap[north-west]
-<h2>@size[0.7em](Unityとは)</h3>
+<h2>@size[0.7em](Unityとは)</h2>
 <a href="https://unity3d.com/jp">@size[0.7em](Unity公式サイト)</a>
 @snapend
 
@@ -71,6 +71,7 @@ Unityは無料から使えます
 @snap[north-west]
 <h2>@size[0.7em](プランを選ぼう)</h2>
 一番右の <b>Personal</b> が初心者向けです
+ダウンロードができたらインストールをしてください
 @snapend
 
 
@@ -85,14 +86,15 @@ Unityは無料から使えます
 @title[アセットとは]
 
 @snap[north-west]
-<h2>@size[0.7em](アセットとは)</h3>
+<h2>@size[0.7em](アセットとは)</h2>
 <p>
   <b>アセット</b>とはゲームの部品のこと<br>
 </p>
 
 <p>
-Unityにはたくさんの人が無料からアセットを提供する<br>
-<a href="https://www.assetstore.unity3d.com/jp/">アセットストア</a>があります
+<a href="https://www.assetstore.unity3d.com/jp/"Unityアセットストア</a<br>
+たくさんの人が無料からアセットを提供しています<br>
+
 </p>
 
 <p>
@@ -101,38 +103,42 @@ Unityにはたくさんの人が無料からアセットを提供する<br>
 </p>
 @snapend
 
----?image=assets/img/GitUnityPackage.PNG&size=60% auto&position=bottom
+---?image=assets/img/GitUnityPackage.PNG&size=62% auto&position=bottom
 @title[専用アセットをダウンロードする]
 
 @snap[north-west]
 <h2>@size[0.7em](専用アセットをダウンロードする)</h2>
+<a href="https://github.com/yuki-thewaggle/EduvationSummit2018/blob/master/TheWaggleTypingGame.unitypackage">こちらのページ</a>にアクセスすると以下の画面が出ます
+中央の右寄りにある **Download** ボタンを押してダウンロードしてください
+@snapend
+
+---?image=assets/img/UnityShortcut.PNG
+@title[unityを起動する]
+
+@snap[north-west]
+<h2>@size[0.7em](unityを起動する)</h3>
+デスクトップのショートカットをダブルクリックして起動してください
+@snapend
+
+
+---?image=assets/img/CreateNewProject.PNG&size=auto 40%&position=bottom
+@title[新規プロジェクトを作成する]
+
+### 新規プロジェクトを作成する(1/2)
+
+@snap[north-west]
+<h2>@size[0.7em](新規プロジェクトを作成する)</h3>
+新規プロジェクトを作成します
 @snapend
 
 @snap[west]
-<a href="https://github.com/yuki-thewaggle/EduvationSummit2018/blob/master/TheWaggleTypingGame.unitypackage">こちらのページ</a>にアクセスすると以下の画面が出ます
+<ol>
+  <li><i>Project name</i>を<b>TypingGame</b>にします</li>
+  <li><i>Location</i>を<b>自分がフォルダを保存したい場所</b>にします</li>
+  <li>他の項目はデフォルトのままで大丈夫です</li>
+  <li><b>Create project</b>ボタンをクリックしてプロジェクトを作成してください</li>
+</ol>
 @snapend
-
-
----
-### **アセット** をダウンロードする(3/3)
-
-  ![アセットダウンロード](assets/img/GitUnityPackage.PNG)
-
-中央の右寄りにある **Download** ボタンを押してダウンロードしてください
-
----
-### unityを起動する
-
-デスクトップのショートカットをダブルクリックして起動してください
-
-  ![ショートカット](asets/img/UnityShortcut.PNG)
-
----
-### 新規プロジェクトを作成する(1/2)
-
-新規プロジェクトを作成します
-
-![ショートカット](assets/img/CreateNewProject.PNG)
 
 ---
 ### 新規プロジェクトを作成する(2/2)
