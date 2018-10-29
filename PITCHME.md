@@ -102,16 +102,22 @@ Unityは無料から使えます
 </p>
 @snapend
 
----?image=assets/img/GitUnityPackage.PNG&size=55% auto&position=bottom
+---?image=assets/img/GitUnityPackage.PNG&size=53% auto&position=bottom
 @title[専用アセットをダウンロードする]
 
 @snap[north-west]
 <h2>@size[0.7em](専用アセットをダウンロードする)</h2>
-<a href="https://github.com/yuki-thewaggle/EduvationSummit2018/blob/master/TheWaggleTypingGame.unitypackage">こちらのページ</a>にアクセスすると以下の画面が出ます
-中央の右寄りにある **Download** ボタンを押してダウンロードしてください
+<p>
+  <a href="https://github.com/yuki-thewaggle/EduvationSummit2018/blob/master/TheWaggleTypingGame.unitypackage">こちらのページ</a>
+  にアクセスすると以下の画面が出ます
+</p>
+<p>
+  中央の右寄りにある **Download** ボタンを押して<br>
+  ダウンロードしてください
+</p>
 @snapend
 
----?image=assets/img/UnityShortcut.PNGsize=20% auto
+---?image=assets/img/UnityShortcut.PNGsize=20% auto&position=center
 @title[unityを起動する]
 
 @snap[north-west]
