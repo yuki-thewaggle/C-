@@ -4,7 +4,9 @@
 <h1>@size[0.7em](Unityで<br>タイピングゲームを<br>作ってみよう)</h1>
 @snapend
 
----@title[Unity公式サイト]
+---
+@title[Unity公式サイト]
+
 ### Unity
 [https://unity3d.com/jp](https://unity3d.com/jp)
 
