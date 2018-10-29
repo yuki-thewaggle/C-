@@ -8,10 +8,11 @@
 @title[Unity公式サイト]
 
 @snap[north-west]
-### Unity
+<h3>@size[0.7em](Unity)</h3>
+<a href="https://unity3d.com/jp">Unity公式サイト</a>
 @snapend
 
-[https://unity3d.com/jp](https://unity3d.com/jp)
+
 
 <br>
 @snap[west sidebar]
