@@ -258,11 +258,10 @@ Unityは無料から使えます
   この動作を<b>インスタンス化</b>といい<br>
   実体化されたオブジェクトを<b>インスタンス</b>といいます
 </p>
-
+<p>
 <a href ="https://docs.unity3d.com/ja/current/Manual/Prefabs.html">@size[0.5em](プレハブ)</a>
-
 <a href="https://docs.unity3d.com/ja/current/Manual/InstantiatingPrefabs.html">@size[0.5em](実行時のプレハブのインスタンス化)</a>
-
+</p>
 
 ---
 @title[その他の設定]
