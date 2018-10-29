@@ -51,20 +51,23 @@
 @snapend
 
 @snap[west]
-モバイルゲーム向けの50%以上がUnityで開発されています
+<b>モバイルゲーム向けの50%以上</b>がUnityで開発されています
 @snapend
 
 ---
-### Unityをダウンロードしよう(1/2)
+@title[Unityをダウンロードしよう(1/2)]
 
-
-- Unityは無料から使えます
+@snap[north-west]
+<h2>@size[0.7em](Unityをダウンロードしよう)</h3>
+Unityは無料から使えます
+@snapend
 
 #### ダウンロードサイトにアクセスする
-ダウンロードサイト　
+ダウンロードサイト
 [https://store.unity.com/ja](https://store.unity.com/ja)
 
 ---
+
 ### Unityをダウンロードしよう(2/2)
 #### 初心者向け Personal を選ぶ
 一番右側の **Personal** から **無料ダウンロード** をクリックする
@@ -72,6 +75,7 @@
 ![ユニティダウンロード](assets/img/UnityDownload?image=assets/assets/img/monkey.jpg&size=50% 100%&color=lightgray&opacity=100)
 
 ---
+
 ## 早速つくってみよう
 
 ---
