@@ -24,6 +24,8 @@
 様々なゲーム機に対応したゲームが作れます
 @snapend
 
+@snap[south-west]
+@size[0.7em](
 - iPhone
 - Android
 - PS4
@@ -32,6 +34,12 @@
 - Xbox
 - Facebook
 - ...
+)
+@snapend
+
+@snap[south-east sidebar]
+![UnityHome](assets/img/sean-do-782269-unsplash.jpg)
+@snapend
 
 ---
 ### Unityとは(3/3)
