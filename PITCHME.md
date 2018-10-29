@@ -138,7 +138,7 @@ Unityは無料から使えます
 </ol>
 @snapend
 
----?image=assets/img/UnityLayout_after.png&size=auto 65%&position=bottom
+---?image=assets/img/UnityLayout_after.png&size=auto 70%&position=bottom
 @title[Unityエディタのレイアウトを設定する]
 
 @snap[north-west]
@@ -146,7 +146,7 @@ Unityは無料から使えます
 このチュートリアルでは<b>Tall</b>を採用しています
 @snapend
 
----?image=assets/img/UnityLayout_before.png&size=auto 65%&position=bottom
+---?image=assets/img/UnityLayout_before.png&size=auto 70%&position=bottom
 @title[レイアウト設定方法]
 
 @snap[north-west]
@@ -155,35 +155,27 @@ Unityは無料から使えます
 @snapend
 
 ---
-@title[Unityエディタのレイアウトを設定する]
+@title[アセットを選択する]
 
-#### Unityにアセットをインポートする(1/4)
-
-先ほどダウンロードした専用アセットをインポートします
-
----
-#### Unityにアセットをインポートする(2/4)
+@snap[north-west]
+<h2>@size[0.7em](アセットを選択する)</h2>
 
 ![選択するアセット](assets/img/ImportPackage.PNG)
-
-
-**TheWaggleTypingGame.unitypackage** を選択して
-
----
-#### Unityにアセットをインポートする(3/4)
+<b>TheWaggleTypingGame.unitypackage</b> を選択して
 
 ![開くボタン](assets/img/ImportPackage2.PNG)
+<b>開く</b> ボタンをクリックしてください
+@snapend
 
-**開く** ボタンをクリックしてください
+---?image=assets/img/ImportPackage3.png&size=auto 70%&position=bottom
+@title[アセットをインポートする]
 
-インポートするファイルの選択画面が出てきます
+@snap[north-west]
+<h2>@size[0.7em](アセットをインポートする)</h2>
+そのまま<b>Import</b>ボタンをクリックしてください
+@snapend
 
----
-#### Unityにアセットをインポートする(4/4)
 
-![開くボタン](assets/img/ImportPackage3.png)
-
-デフォルトの状態で **Import** ボタンをクリックしてください
 
 ---
 
