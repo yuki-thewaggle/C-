@@ -138,19 +138,23 @@ Unityは無料から使えます
 </ol>
 @snapend
 
----?image=assets/img/UnityLayout_after.png&size=auto 60%&position=bottom
+---?image=assets/img/UnityLayout_after.png&size=auto 65%&position=bottom
 @title[Unityエディタのレイアウトを設定する]
 
 @snap[north-west]
 <h2>@size[0.7em](Unityエディタのレイアウトを設定する)</h2>
-このチュートリアルでは<b>Tall</b>レイアウトを採用しています
+このチュートリアルでは<br>
+<b>Tall</b>レイアウトを採用しています
 @snapend
 
----
+---?image=assets/img/UnityLayout_before.png&size=auto 65%&position=bottom
 @title[レイアウト設定方法]
 
+@snap[north-west]
+<h2>@size[0.7em](レイアウト設定方法)</h2>
+<b>Window</b> > <b>Layouts</b> > <b>Tall</b> を選択してください
+@snapend
 
-**Window** > **Layouts** > **Tall** を選択してください
 
 @snap[north-west]
 Default
