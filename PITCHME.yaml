@@ -1,6 +1,3 @@
-layout : top-left
-
-
 #
 # The Template Settings
 #
@@ -22,14 +19,14 @@ theme : simple
 # Theme-Override Setting
 # Doc: https://gitpitch.com/docs/settings/custom-theme
 #
-theme-override : template/css/PITCHME.css
+theme-override : assets/css/PITCHME.css
 
 #
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 #
-logo : template/img/logo.png
-logo-position : top-left
+logo : assets/img/the_waggle_logo_y.png
+logo-position : top-right
 
 #
 # Footnote Setting
@@ -47,7 +44,7 @@ highlight : atom-one-dark
 # Layout Setting
 # Doc: https://gitpitch.com/docs/settings/layout
 #
-layout : center
+layout : top-left
 
 #
 # Transition Setting
