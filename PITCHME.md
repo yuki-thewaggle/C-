@@ -51,7 +51,7 @@
 @snapend
 
 @snap[south-west]
-<b>モバイルゲーム向けの50%以上</b>がUnityで開発されています
+<b>モバイルゲーム向けの50%以上</b>が<br>Unityで開発されています
 @snapend
 
 ---
@@ -70,7 +70,7 @@ Unityは無料から使えます
 
 @snap[north-west]
 <h2>@size[0.7em](プランを選ぼう)</h2>
-一番右の <b>Personal</b> が初心者向けです
+一番右の <b>Personal</b> が初心者向けです<br>
 ダウンロードができたらインストールをしてください
 @snapend
 
@@ -92,7 +92,7 @@ Unityは無料から使えます
 </p>
 
 <p>
-  <a href="https://www.assetstore.unity3d.com/jp/"Unityアセットストア</a><br>
+  <a href="https://www.assetstore.unity3d.com/jp/">Unityアセットストア</a><br>
   たくさんの人が無料からアセットを提供しています<br>
 </p>
 
