@@ -9,13 +9,10 @@
 
 @snap[north-west]
 <h3>@size[0.7em](Unity)</h3>
-<a href="https://unity3d.com/jp">Unity公式サイト</a>
+<a href="https://unity3d.com/jp">@size[0.7em](Unity公式サイト)</a>
 @snapend
 
-
-
-<br>
-@snap[west sidebar]
+@snap[south-west sidebar]
 ![UnityHome](assets/img/UnityHome.PNG)
 @snapend
 
