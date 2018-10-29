@@ -5,10 +5,10 @@
 @snapend
 
 ---
-@title[Unity公式サイト]
+@title[Unityとは]
 
 @snap[north-west]
-<h3>@size[0.7em](Unity)</h3>
+<h2>@size[0.7em](Unityとは)</h3>
 <a href="https://unity3d.com/jp">@size[0.7em](Unity公式サイト)</a>
 @snapend
 
@@ -16,8 +16,14 @@
 ![UnityHome](assets/img/UnityHome.PNG)
 @snapend
 
----?image=assets/img/sean-do-782269-unsplash.jpg&opacity=20%
-#### Unityとは(2/3)- Unityがあれば様々なゲーム機に対応したゲームが作れます
+---
+@title[Unityがあれば]
+
+@snap[north-west]
+<h2>@size[0.7em](Unityがあれば)</h3>
+様々なゲーム機に対応したゲームが作れます
+@snapend
+
 - iPhone
 - Android
 - PS4
