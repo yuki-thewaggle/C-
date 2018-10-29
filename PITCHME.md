@@ -143,8 +143,7 @@ Unityは無料から使えます
 
 @snap[north-west]
 <h2>@size[0.7em](Unityエディタのレイアウトを設定する)</h2>
-このチュートリアルでは<br>
-<b>Tall</b>レイアウトを採用しています
+このチュートリアルでは<b>Tall</b>を採用しています
 @snapend
 
 ---?image=assets/img/UnityLayout_before.png&size=auto 65%&position=bottom
@@ -155,34 +154,9 @@ Unityは無料から使えます
 <b>Window</b> > <b>Layouts</b> > <b>Tall</b> を選択してください
 @snapend
 
-
-@snap[north-west]
-Default
-@snapend
-
-@snap[west sidebar]
-![デフォルトのレイアウト](assets/img/UnityLayout_before.png)
-@snapend
-
-@snap[north-west]
-Tall
-@snapend
-
-@snap[east sidebar]
-![デフォルトのレイアウト](assets/img/UnityLayout_after.png)
-@snapend
-
-
 ---
-### Unityエディタのレイアウトを設定する(3/3)
+@title[Unityエディタのレイアウトを設定する]
 
-**Window** > **Layouts** > **Tall** を選択してください
-
-![変更後のレイアウト](assets/img/UnityLayout_after.PNG)
-
-このようになります
-
----
 #### Unityにアセットをインポートする(1/4)
 
 先ほどダウンロードした専用アセットをインポートします
