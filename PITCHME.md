@@ -122,7 +122,7 @@ Unityは無料から使えます
 デスクトップのショートカットをダブルクリックして起動してください
 @snapend
 
----?image=assets/img/CreateNewProject.PNG&size=auto 55%&position=right bottom
+---?image=assets/img/CreateNewProject.PNG&size=auto 60%&position=right bottom
 @title[新規プロジェクトを作成する]
 
 @snap[north-west]
@@ -138,7 +138,7 @@ Unityは無料から使えます
 </ol>
 @snapend
 
----?image=assets/img/UnityLayout_before.PNG&size=auto 60%&position=bottom
+---?image=assets/img/UnityLayout_before.png&size=auto 60%&position=bottom
 @title[Unityエディタのレイアウトを設定する]
 
 @snap[north-west]
@@ -157,7 +157,7 @@ Default
 @snapend
 
 @snap[west sidebar]
-![デフォルトのレイアウト](assets/img/fruit-UnityLayout_before.PNG)
+![デフォルトのレイアウト](assets/img/fruit-UnityLayout_before.png)
 @snapend
 
 @snap[north-west]
@@ -165,7 +165,7 @@ Tall
 @snapend
 
 @snap[east sidebar]
-![デフォルトのレイアウト](assets/img/fruit-UnityLayout_after.PNG)
+![デフォルトのレイアウト](assets/img/fruit-UnityLayout_after.png)
 @snapend
 
 
