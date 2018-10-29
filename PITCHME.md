@@ -1,5 +1,5 @@
 @snap[midpoint]
-# Unityでタイピングゲームを作ってみよう
+@title[Unityでタイピングゲームを作ってみよう]
 @snapend
 
 ---
