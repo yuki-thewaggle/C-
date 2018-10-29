@@ -282,14 +282,10 @@ Unityは無料から使えます
 
 <h2>@size[0.7em](その他の設定 2/3)</h2>
 
+- シーンを新規作成したときに自動生成される**MainCamera**と**DirectionalLight**を削除する
+
 - **Hierarchy** > **MousePointingFloor** をクリック
   - レイヤーを**Floor**に設定
-
-- **Hierarchy** > **NavMeshWalkableFloor** をクリックする
-  - **MeshRenderer**のチェックボックスを**チェックがついた状態**にする
-  - **Window** > **AI** > **Navigation** をクリック
-  - **Bake** タブにある **Bake** ボタンをクリックする
-  - **MeshRenderer**のチェックボックスを**チェックが外れた状態**にする
 
 ---
 @title[その他の設定 3/3]
@@ -298,8 +294,11 @@ Unityは無料から使えます
 <h2>@size[0.7em](その他の設定 3/3)</h2>
 @snapend
 
-- シーンを新規作成したときに自動生成される**MainCamera**と**DirectionalLight**を削除する
-
+- **Hierarchy** > **NavMeshWalkableFloor** をクリックする
+  - **MeshRenderer**のチェックボックスを**チェックがついた状態**にする
+  - **Window** > **AI** > **Navigation** をクリック
+  - **Bake** タブにある **Bake** ボタンをクリックする
+  - **MeshRenderer**のチェックボックスを**チェックが外れた状態**にする
 
 ---
 #### Playする
