@@ -36,19 +36,15 @@
 
 ---
 @title[Unityで作られたゲームの一例]
+
 @snap[north-west]
 <h2>@size[0.7em](Unityで作られたゲームの一例)</h3>
-Unityのゲーム
 @snapend
 
-@snap[west]
-<ul>
-  <li>@size[0.7em](スーパーマリオラン)</li>
-  <li>@size[0.7em](ポケモンGO)</li>
-  <li>@size[0.7em](いっしょにチョキッとスニッパーズ)</li>
-  <li>@size[0.7em](...)</li>
-</ul>
-@snapend
+- スーパーマリオラン
+- ポケモンGO
+- いっしょにチョキッとスニッパーズ
+- ...
 
 ---
 ### Unityをダウンロードしよう(1/2)
