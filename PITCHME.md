@@ -259,12 +259,16 @@ Unityは無料から使えます
   実体化されたオブジェクトを<b>インスタンス</b>といいます
 </p>
 <p>
-<a href ="https://docs.unity3d.com/ja/current/Manual/Prefabs.html">@size[0.5em](プレハブ)</a>
+<a href ="https://docs.unity3d.com/ja/current/Manual/Prefabs.html">@size[0.5em](プレハブ)</a><br>
 <a href="https://docs.unity3d.com/ja/current/Manual/InstantiatingPrefabs.html">@size[0.5em](実行時のプレハブのインスタンス化)</a>
 </p>
 
 ---
-@title[その他の設定]
+@title[その他の設定 1/3]
+
+@snap[north-west]
+<h2>@size[0.7em](その他の設定 1/3)</h2>
+@snapend
 
 - **Edit** > **ProjectSettings** > **Input** をクリック
   - **Axis**  > **Vertical** > **Horizontal** から **a** , **d** を消す
@@ -272,6 +276,13 @@ Unityは無料から使えます
 
 - **Window** > **Rendering** > **Lighting Settings** をクリック
   - **Skybox Material** のサークルセレクトをクリックして<br>**NightmaresProceduralSkybox** にする
+
+---
+@title[その他の設定 2/3]
+
+@snap[north-west]
+<h2>@size[0.7em](その他の設定 2/3)</h2>
+@snapend
 
 - **Hierarchy** > **MousePointingFloor** をクリック
   - レイヤーを**Floor**に設定
@@ -281,7 +292,14 @@ Unityは無料から使えます
   - **Window** > **AI** > **Navigation** をクリック
   - **Bake** タブにある **Bake** ボタンをクリックする
   - **MeshRenderer**のチェックボックスを**チェックが外れた状態**にする
-  
+
+---
+@title[その他の設定 3/3]
+
+@snap[north-west]
+<h2>@size[0.7em](その他の設定 3/3)</h2>
+@snapend
+
 - シーンを新規作成したときに自動生成される**MainCamera**と**DirectionalLight**を削除する
 
 
@@ -291,7 +309,6 @@ Unityは無料から使えます
 Maximize On PlayをONにする
 動きを確かめる
 (`_MyScene` > `MySceneTest`と同じだったらOK)
-
 
 ---
 
