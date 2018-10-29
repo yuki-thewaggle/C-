@@ -1,7 +1,7 @@
-# @size[1em](タイピングゲームを作ってみよう)
-## @size[0.5em](Unityでのタイピングゲーム開発)
+# @size[0.7em](タイピングゲームを作ってみよう)
+## @size[0.7em](Unityでのタイピングゲーム開発)
 ---
-### Unityとは(1/2)
+# @size[0.7em](Unityと（1/2）)
 
 [Unity公式サイト](https://unity3d.com/jp)
 
