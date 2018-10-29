@@ -50,7 +50,7 @@
 </ul>
 @snapend
 
-@snap[west]
+@snap[south-west]
 <b>モバイルゲーム向けの50%以上</b>がUnityで開発されています
 @snapend
 
@@ -75,17 +75,25 @@ Unityは無料から使えます
 
 
 ---
+@title[早速つくってみよう]
 
-## 早速つくってみよう
+@snap[west]
+<h2>早速つくってみよう</h2>
+@snapend
 
 ---
-### **アセット** をダウンロードする(1/3)
+@title[アセットとは]
 
-#### アセットとは
+@snap[north-west]
+<h2>@size[0.7em](アセットとは)</h3>
+今回は専用アセットを使ってタイピングゲームをつくっていきます
+@snapend
 
-  - アセットとはゲームの部品のこと
-  - Unityにはたくさんの人が無料からアセットを提供する[アセットストア](https://www.assetstore.unity3d.com/jp/)があります
-  - 今回は専用アセットを使ってタイピングゲームを開発していきます
+@snap[west]
+<b>アセット</b>とはゲームの部品のこと
+Unityにはたくさんの人が無料からアセットを提供する<a href="https://www.assetstore.unity3d.com/jp/">アセットストア</a>があります
+@snapend
+
 
 ---
 ### **アセット** をダウンロードする(2/3)
