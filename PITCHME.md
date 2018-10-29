@@ -275,14 +275,12 @@ Unityは無料から使えます
   - **Axis**  > **Vertical** > **Vercal** から **s** , **w** を消す
 
 - **Window** > **Rendering** > **Lighting Settings** をクリック
-  - **Skybox Material** のサークルセレクトをクリックして<br>**NightmaresProceduralSkybox** にする
+  - **Skybox Material** のサークルセレクトをクリックして**NightmaresProceduralSkybox** にする
 
 ---
 @title[その他の設定 2/3]
 
-@snap[north-west]
 <h2>@size[0.7em](その他の設定 2/3)</h2>
-@snapend
 
 - **Hierarchy** > **MousePointingFloor** をクリック
   - レイヤーを**Floor**に設定
