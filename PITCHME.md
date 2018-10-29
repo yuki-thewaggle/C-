@@ -86,12 +86,18 @@ Unityは無料から使えます
 
 @snap[north-west]
 <h2>@size[0.7em](アセットとは)</h3>
-今回は専用アセットを使ってタイピングゲームをつくっていきます
+<b>アセット</b>とはゲームの部品のこと<br>
+@snapend
+
+@snap[west]
+Unityには<br>
+たくさんの人が無料からアセットを提供する<br>
+<a href="https://www.assetstore.unity3d.com/jp/">アセットストア</a>があります
 @snapend
 
 @snap[south-west]
-<b>アセット</b>とはゲームの部品のこと<br>
-Unityにはたくさんの人が無料からアセットを提供する<a href="https://www.assetstore.unity3d.com/jp/">アセットストア</a>があります
+今回は専用アセットを使って<br>
+タイピングゲームをつくっていきます
 @snapend
 
 
