@@ -196,7 +196,7 @@ Unityは無料から使えます
 新規シーンを作成してください
 @snapend
 
----?image=assets/img/Savescene.png&size=auto 60%&position=bottom
+---?image=assets/img/SaveScene.png&size=auto 60%&position=bottom
 @title[シーンを保存する]
 
 @snap[north-west]
@@ -205,7 +205,7 @@ Unityは無料から使えます
 シーンに名前をつけて保存します
 @snapend
 
----?image=assets/img/Savescene2.PNG&size=auto 60%&position=bottom
+---?image=assets/img/SaveScene2.PNG&size=auto 60%&position=bottom
 @title[シーン名を入力する]
 
 @snap[north-west]
@@ -214,7 +214,7 @@ Unityは無料から使えます
 <b>保存</b> ボタンをクリックしてください
 @snapend
 
----?image=assets/img/CreatedMain.PNG&size=auto 60%&position=bottom
+---?image=assets/img/CreatedMain.PNG&size=auto 70%&position=bottom
 @title[シーンが作成されたことを確認する]
 
 @snap[north-west]
@@ -222,17 +222,13 @@ Unityは無料から使えます
 このように <b>Main</b> と表示されれば保存成功です
 @snapend
 
-
 ---
-### シーンを作る(5/5)
-
-![シーン作成確認](assets/img/CreatedMain.PNG)
-
-このように **Main** と表示されれば保存成功です
-
----
-
-### Prefab
+@title[プレハブとは]
+@snap[north-west]
+<h2>@size[0.7em](プレハブとは)</h2>
+プレハブとは、アセットの中でも<br>
+<b>部品化するだけでそのまま動き出す</b>ものです
+@snapend
 
 #### prefabとは
 
