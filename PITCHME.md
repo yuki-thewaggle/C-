@@ -13,7 +13,7 @@
 @snapend
 
 
----?image=assets/img/Gaming.jpg&size=50% auto&position=right bottom
+---?image=assets/img/Gaming.jpg&size=60% auto&position=right bottom
 @title[Unityがあれば]
 
 @snap[north-west]
@@ -33,19 +33,28 @@
   <li>@size[0.7em](...)</li>
 </ul>
 @snapend
+
 ---
-### Unityとは(3/3)
+@title[Unityで作られたゲームの一例]
+@snap[north-west]
+<h2>@size[0.7em](Unityで作られたゲームの一例)</h3>
+Unityのゲーム
+@snapend
 
-- Unityで作られた有名ゲーム
-  - スーパーマリオラン
-  - ポケモンGO
-  - いっしょにチョキッとスニッパーズ
-  - ...
-
-- Unityは無料から使えます
+@snap[west]
+<ul>
+  <li>@size[0.7em](スーパーマリオラン)</li>
+  <li>@size[0.7em](ポケモンGO)</li>
+  <li>@size[0.7em](いっしょにチョキッとスニッパーズ)</li>
+  <li>@size[0.7em](...)</li>
+</ul>
+@snapend
 
 ---
 ### Unityをダウンロードしよう(1/2)
+
+
+- Unityは無料から使えます
 
 #### ダウンロードサイトにアクセスする
 ダウンロードサイト　
