@@ -107,10 +107,7 @@ Unityは無料から使えます
 
 @snap[north-west]
 <h2>@size[0.7em](専用アセットをダウンロードする)</h2>
-<p>
-  <a href="https://github.com/yuki-thewaggle/EduvationSummit2018/blob/master/TheWaggleTypingGame.unitypackage">こちらのページ</a>
-  にアクセスすると以下の画面が出ます
-</p>
+  <a href="https://github.com/yuki-thewaggle/EduvationSummit2018/blob/master/TheWaggleTypingGame.unitypackage">専用アセットダウンロードページ</a>
 <p>
   中央の右寄りにある **Download** ボタンを押して<br>
   ダウンロードしてください
