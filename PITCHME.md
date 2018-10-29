@@ -1,11 +1,11 @@
 ### タイピングゲームを作ってみよう
 #### Unityでのタイピングゲーム開発
 
----
+---?image=assets/img/UnityHome.PNG&size=50%
 #### Unityとは(1/3)
 [Unity公式サイト](https://unity3d.com/jp)
 
-?image=assets/img/UnityHome.PNG&size=50%
+
 
 ---
 #### Unityとは(2/3)- Unityがあれば様々なゲーム機に対応したゲームが作れます
