@@ -122,7 +122,7 @@ Unityは無料から使えます
 デスクトップのショートカットをダブルクリックして起動してください
 @snapend
 
----?image=assets/img/CreateNewProject.PNG&size=auto 60%&position=right bottom
+---?image=assets/img/CreateNewProject.PNG&size=auto 55%&position=right bottom
 @title[新規プロジェクトを作成する]
 
 @snap[north-west]
@@ -132,32 +132,42 @@ Unityは無料から使えます
   <li><i>Location</i>を<b>自分がフォルダを保存したい場所</b>に</li>
   <li>他の項目はデフォルトのままで大丈夫です</li>
   <li><b>Create project</b>ボタンを<br>
-    クリックしてプロジェクトを<br>
+    クリックして<br>
+    プロジェクトを<br>
     作成してください</li>
 </ol>
 @snapend
 
----
+---?image=assets/img/UnityLayout_before.PNG&size=auto 60%&position=bottom
+@title[Unityエディタのレイアウトを設定する]
 
-### 新規プロジェクトを作成する(2/2)
-
-1. `Project name` を **TypingGame** にします
-1. `Location` を **自分がフォルダを保存したい場所** にします
-1. 他の項目はデフォルトのままで大丈夫です
-
-以上3点が設定出来たら **Create project** ボタンをクリックしてプロジェクトを作成してください
+@snap[north-west]
+<h2>@size[0.7em](Unityエディタのレイアウトを設定する)</h2>
+このチュートリアルでは<b>Tall</b>レイアウトを採用しています
+@snapend
 
 ---
-### Unityエディタのレイアウトを設定する(1/3)
+@title[レイアウト設定方法]
 
-このチュートリアルで採用する **Tall** レイアウトに変更します
 
----
-### Unityエディタのレイアウトを設定する(2/3)
+**Window** > **Layouts** > **Tall** を選択してください
 
-最初はこのような状態になっていると思います
+@snap[north-west]
+Default
+@snapend
 
-![デフォルトのレイアウト](assets/img/UnityLayout_before.PNG)
+@snap[west sidebar]
+![デフォルトのレイアウト](assets/img/fruit-UnityLayout_before.PNG)
+@snapend
+
+@snap[north-west]
+Tall
+@snapend
+
+@snap[east sidebar]
+![デフォルトのレイアウト](assets/img/fruit-UnityLayout_after.PNG)
+@snapend
+
 
 ---
 ### Unityエディタのレイアウトを設定する(3/3)
