@@ -160,11 +160,14 @@ Unityは無料から使えます
 @snap[north-west]
 <h2>@size[0.7em](アセットを選択する)</h2>
 
-![選択するアセット](assets/img/ImportPackage.PNG)
+<p>
 <b>TheWaggleTypingGame.unitypackage</b> を選択して
-
-![開くボタン](assets/img/ImportPackage2.PNG)
+![選択するアセット](assets/img/ImportPackage.PNG)
+</p>
+<p>
 <b>開く</b> ボタンをクリックしてください
+![開くボタン](assets/img/ImportPackage2.PNG)
+</p>
 @snapend
 
 ---?image=assets/img/ImportPackage3.png&size=auto 70%&position=bottom
@@ -175,46 +178,50 @@ Unityは無料から使えます
 そのまま<b>Import</b>ボタンをクリックしてください
 @snapend
 
+---?image=assets/img/ImportedAssets.PNG&size=auto 60%&position=bottom
+@title[アセットがインポートされたことを確認する]
 
+@snap[north-west]
+<h2>@size[0.7em](アセットがインポートされたことを確認する)</h2>
+<i>Project</i>ウィンドウの<i>Assets</i>の中から<br>
+ファイルが見えることを確認してください
+@snapend
 
----
+---?image=assets/img/Newscene.PNG&size=auto 60%&position=bottom
+@title[新規シーンを作成する]
 
-### Projectウィンドウからアセットを使う
+@snap[north-west]
+<h2>@size[0.7em](新規シーンを作成する)</h2>
+<b>File</b> > <b>New Scene</b> をクリックして<br>
+新規シーンを作成してください
+@snapend
 
-インポートしたアセット（ゲームの部品）を利用してゲームを作成していきます
+---?image=assets/img/Savescene.PNG&size=auto 60%&position=bottom
+@title[シーンを保存する]
 
----
-#### Projectウィンドウにアセットがインポートされたことを確認する
+@snap[north-west]
+<h2>@size[0.7em](シーンを保存する)</h2>
+<b>File</b> > <b>Save Scene</b> をクリックしてください
+シーンに名前をつけて保存します
+@snapend
 
-`Project`ウィンドウの `Assets` の中に画像のようなファイルが展開されていることを確認してください
+---?image=assets/img/Savescene.PNG&size=auto 60%&position=bottom
+@title[シーン名を入力する]
 
-![インポートしたアセット](assets/img/ImportedAssets.PNG)
+@snap[north-west]
+<h2>@size[0.7em](シーン名を入力する)</h2>
+ファイル名に <b>Main</b> と入力して<br>
+<b>保存</b> ボタンをクリックしてください
+@snapend
 
----
-### シーンを作る(1/5)
+---?image=assets/img/CreatedMain.PNG&size=auto 60%&position=bottom
+@title[シーンが作成されたことを確認する]
 
-自分のシーンを作ります
+@snap[north-west]
+<h2>@size[0.7em](シーンが作成されたことを確認する)</h2>
+このように <b>Main</b> と表示されれば保存成功です
+@snapend
 
----
-### シーンを作る(2/5)
-
-![新規シーン作成](assets/img/Newscene.PNG)
-
-**File** > **New Scene** をクリックして新規シーンを作成してください
-
----
-### シーンを作る(3/5)
-
-![シーン保存](assets/img/Savescene.PNG)
-
-次に **File** > **Save Scene** をクリックしてシーンを保存してください
-
----
-### シーンを作る(4/5)
-
-![シーン名入力](assets/img/Savescene2.PNG)
-
-ファイル名に **Main** と入力して **保存** ボタンをクリックしてください
 
 ---
 ### シーンを作る(5/5)
