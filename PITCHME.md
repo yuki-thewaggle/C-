@@ -1,5 +1,3 @@
-layout : top-left
-
 # タイピングゲームを作ってみよう
 ## Unityでのタイピングゲーム開発
 ---
@@ -7,7 +5,7 @@ layout : top-left
 
 [Unity公式サイト](https://unity3d.com/jp)
 
-?image=assets/img/monkey.jpg&size=50%&color=lightgray&opacity=100
+---?image=assets/img/monkey.jpg&size=50%&color=lightgray&opacity=100
 
 - Unityがあれば様々なゲーム機に対応したゲームが作れます
   - iPhone
@@ -42,7 +40,7 @@ layout : top-left
 #### 初心者向け Personal を選ぶ
 一番右側の **Personal** から **無料ダウンロード** をクリックする
 
-![ユニティダウンロード](tingImage/UnityDownload?image=assets/img/monkey.jpg&size=50% 100%&color=lightgray&opacity=100)
+![ユニティダウンロード](assets/img/UnityDownload?image=assets/assets/img/monkey.jpg&size=50% 100%&color=lightgray&opacity=100)
 
 ---
 ## 早速つくってみよう
@@ -66,7 +64,7 @@ layout : top-left
 ---
 ### **アセット** をダウンロードする(3/3)
 
-  ![アセットダウンロード](img/GitUnityPackage.PNG)
+  ![アセットダウンロード](assets/img/GitUnityPackage.PNG)
 
 中央の右寄りにある **Download** ボタンを押してダウンロードしてください
 
@@ -75,14 +73,14 @@ layout : top-left
 
 デスクトップのショートカットをダブルクリックして起動してください
 
-  ![ショートカット](img/UnityShortcut.PNG)
+  ![ショートカット](asets/img/UnityShortcut.PNG)
 
 ---
 ### 新規プロジェクトを作成する(1/2)
 
 新規プロジェクトを作成します
 
-![ショートカット](img/CreateNewProject.PNG)
+![ショートカット](assets/img/CreateNewProject.PNG)
 
 ---
 ### 新規プロジェクトを作成する(2/2)
@@ -103,14 +101,14 @@ layout : top-left
 
 最初はこのような状態になっていると思います
 
-![デフォルトのレイアウト](img/UnityLayout_before.PNG)
+![デフォルトのレイアウト](assets/img/UnityLayout_before.PNG)
 
 ---
 ### Unityエディタのレイアウトを設定する(3/3)
 
 **Window** > **Layouts** > **Tall** を選択してください
 
-![変更後のレイアウト](img/UnityLayout_after.PNG)
+![変更後のレイアウト](assets/img/UnityLayout_after.PNG)
 
 このようになります
 
@@ -122,7 +120,7 @@ layout : top-left
 ---
 #### Unityにアセットをインポートする(2/4)
 
-![選択するアセット](img/ImportPackage.PNG)
+![選択するアセット](assets/img/ImportPackage.PNG)
 
 
 **TheWaggleTypingGame.unitypackage** を選択して
@@ -130,7 +128,7 @@ layout : top-left
 ---
 #### Unityにアセットをインポートする(3/4)
 
-![開くボタン](img/ImportPackage2.PNG)
+![開くボタン](assets/img/ImportPackage2.PNG)
 
 **開く** ボタンをクリックしてください
 
@@ -139,7 +137,7 @@ layout : top-left
 ---
 #### Unityにアセットをインポートする(4/4)
 
-![開くボタン](img/ImportPackage3.png)
+![開くボタン](assets/img/ImportPackage3.png)
 
 デフォルトの状態で **Import** ボタンをクリックしてください
 
@@ -154,7 +152,7 @@ layout : top-left
 
 `Project`ウィンドウの `Assets` の中に画像のようなファイルが展開されていることを確認してください
 
-![インポートしたアセット](img/ImportedAssets.PNG)
+![インポートしたアセット](assets/img/ImportedAssets.PNG)
 
 ---
 ### シーンを作る(1/5)
@@ -164,28 +162,28 @@ layout : top-left
 ---
 ### シーンを作る(2/5)
 
-![新規シーン作成](img/Newscene.PNG)
+![新規シーン作成](assets/img/Newscene.PNG)
 
 **File** > **New Scene** をクリックして新規シーンを作成してください
 
 ---
 ### シーンを作る(3/5)
 
-![シーン保存](img/Savescene.PNG)
+![シーン保存](assets/img/Savescene.PNG)
 
 次に **File** > **Save Scene** をクリックしてシーンを保存してください
 
 ---
 ### シーンを作る(4/5)
 
-![シーン名入力](img/Savescene2.PNG)
+![シーン名入力](assets/img/Savescene2.PNG)
 
 ファイル名に **Main** と入力して **保存** ボタンをクリックしてください
 
 ---
 ### シーンを作る(5/5)
 
-![シーン作成確認](img/CreatedMain.PNG)
+![シーン作成確認](assets/img/CreatedMain.PNG)
 
 このように **Main** と表示されれば保存成功です
 
