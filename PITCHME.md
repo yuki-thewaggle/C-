@@ -114,7 +114,7 @@ Unityは無料から使えます
 </p>
 @snapend
 
----?image=assets/img/UnityShortcut.PNG&size=20% auto
+---?image=assets/img/UnityShortcut.PNG&size=15% auto
 @title[unityを起動する]
 
 @snap[north-west]
@@ -122,23 +122,15 @@ Unityは無料から使えます
 デスクトップのショートカットをダブルクリックして起動してください
 @snapend
 
-@snap[north-west]
-<h2>@size[0.7em](unityを起動する)</h3>
-デスクトップのショートカットをダブルクリックして起動してください
-@snapend
-
-
----?image=assets/img/CreateNewProject.PNG&size=auto 40%&position=bottom
+---?image=assets/img/CreateNewProject.PNG&size=auto 40%&position=right
 @title[新規プロジェクトを作成する]
-
-### 新規プロジェクトを作成する(1/2)
 
 @snap[north-west]
 <h2>@size[0.7em](新規プロジェクトを作成する)</h3>
 新規プロジェクトを作成します
 @snapend
 
-@snap[west]
+@snap[south-west]
 <ol>
   <li><i>Project name</i>を<b>TypingGame</b>にします</li>
   <li><i>Location</i>を<b>自分がフォルダを保存したい場所</b>にします</li>
@@ -148,6 +140,7 @@ Unityは無料から使えます
 @snapend
 
 ---
+
 ### 新規プロジェクトを作成する(2/2)
 
 1. `Project name` を **TypingGame** にします
