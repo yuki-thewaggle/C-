@@ -92,10 +92,10 @@ Unityは無料から使えます
 </p>
 
 <p>
-  <a href="https://www.assetstore.unity3d.com/jp/">Unityアセットストア</a><br>
+  <a href="https://www.assetstore.unity3d.com/jp/">Unityアセットストア</a>にて<br>
   たくさんの人が無料からアセットを提供しています<br>
 </p>
-
+<p></p>
 <p>
 今回は専用アセットを使って<br>
 タイピングゲームをつくっていきます
