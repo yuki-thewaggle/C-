@@ -1,24 +1,25 @@
-##### タイピングゲームを作ってみよう
-###### Unityでのタイピングゲーム開発
----
-###### Unityとは(1/2)
----?image=assets/img/UnityHome.PNG&size=50%&color=lightgray&opacity=100
+### タイピングゲームを作ってみよう
+#### Unityでのタイピングゲーム開発
 
+---
+#### Unityとは(1/3)
 [Unity公式サイト](https://unity3d.com/jp)
 
-
-- Unityがあれば様々なゲーム機に対応したゲームが作れます
-  - iPhone
-  - Android
-  - PS4
-  - PS Vita
-  - WEB
-  - Xbox
-  - Facebook
-  - ...
+?image=assets/img/UnityHome.PNG&size=50%
 
 ---
-### Unityとは(2/2)
+#### Unityとは(2/3)- Unityがあれば様々なゲーム機に対応したゲームが作れます
+- iPhone
+- Android
+- PS4
+- PS Vita
+- WEB
+- Xbox
+- Facebook
+- ...
+
+---
+### Unityとは(3/3)
 
 - Unityで作られた有名ゲーム
   - スーパーマリオラン
