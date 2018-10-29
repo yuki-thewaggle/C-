@@ -205,7 +205,7 @@ Unityは無料から使えます
 シーンに名前をつけて保存します
 @snapend
 
----?image=assets/img/SaveScene2.PNG&size=auto 60%&position=bottom
+---?image=assets/img/SaveScene2.PNG&size=60% auto&position=bottom
 @title[シーン名を入力する]
 
 @snap[north-west]
@@ -223,14 +223,41 @@ Unityは無料から使えます
 @snapend
 
 ---
-@title[プレハブとは]
+@title[プレハブをインスタンス化する]
+
 @snap[north-west]
-<h2>@size[0.7em](プレハブとは)</h2>
-プレハブとは、アセットの中でも<br>
-<b>部品化するだけでそのまま動き出す</b>ものです
+<h2>@size[0.7em](プレハブをインスタンス化する)</h2>
+<b>Assets</b> > <b>_Prefabs</b> にある以下のものを<br>
+<b>Hierarchy</b>にドラッグ&ドロップしてください
 @snapend
 
-#### prefabとは
+- BackgroundMusic
+- Floor
+- GameManager
+- HUDCanvas
+- MainCamera
+- MiniMapCamera
+- Player
+
+---
+@title[プレハブとインスタンス化]
+
+<h2>@size[0.7em](プレハブとインスタンス化)</h2>
+<p>
+  プレハブとは、アセットの中でも<br>
+  <b>部品化するだけでそのまま動き出す</b>ものです
+</p>
+<p>
+  <i>Project</i> ウィンドウから <i>Hierarchy</i> ウィンドウに<br>
+  ドラッグ&ドロップすることで実際のオブジェクトになります
+</p>
+<p>
+  この動作を<b>インスタンス化/b>といい<br>
+  実体化されたオブジェクトを<b>インスタンス</b>といいます
+</p>
+
+https://docs.unity3d.com/ja/current/Manual/Prefabs.html
+https://docs.unity3d.com/ja/current/Manual/InstantiatingPrefabs.html
 
 ---
 #### インスタンスにする(1/2)
