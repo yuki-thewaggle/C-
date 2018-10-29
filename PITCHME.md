@@ -38,7 +38,7 @@
 @title[Unityで作られたゲームの一例]
 
 @snap[north-west]
-<h2>@size[0.7em](Unityで作られたゲームの一例)</h3>
+<h2>@size[0.7em](Unityで作られた有名ゲームの一例)</h3>
 @snapend
 
 @snap[west]
@@ -46,7 +46,12 @@
   <li>スーパーマリオラン</li>
   <li>ポケモンGO</li>
   <li>いっしょにチョキッとスニッパーズ</li>
+  <li>...</li>
 </ul>
+@snapend
+
+@snap[west]
+モバイルゲーム向けの50%以上がUnityで開発されています
 @snapend
 
 ---
