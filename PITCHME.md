@@ -4,7 +4,7 @@
 <h1>@size[0.7em](Unityで<br>タイピングゲームを<br>作ってみよう)</h1>
 @snapend
 
----?image=assets/img/UnityHome.PNG&size=auto 70%&position=bottom
+---?image=assets/img/UnityHome.PNG&size=auto 60%&position=bottom
 @title[Unityとは]
 
 @snap[north-west]
@@ -13,7 +13,7 @@
 @snapend
 
 
----
+---?image=assets/img/Gaming.PNG&size=50% auto&position=right
 @title[Unityがあれば]
 
 @snap[north-west]
@@ -21,7 +21,6 @@
 様々なゲーム機に対応したゲームが作れます
 @snapend
 
-@snap[south-west]
 <ul>
   <li>@size[0.7em](iPhone)</li>
   <li>@size[0.7em]Android)</li>
@@ -32,11 +31,6 @@
   <li>@size[0.7em](Facebook)</li>
   <li>@size[0.7em](...)</li>
 </ul>
-@snapend
-
-@snap[south-east sidebar]
-![UnityHome](assets/img/Gaming.PNG)
-@snapend
 
 ---
 ### Unityとは(3/3)
