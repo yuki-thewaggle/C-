@@ -1,11 +1,11 @@
-# @size[0.7em](タイピングゲームを作ってみよう)
-## @size[0.7em](Unityでのタイピングゲーム開発)
+##### タイピングゲームを作ってみよう
+###### Unityでのタイピングゲーム開発
 ---
-# @size[0.7em](Unityと（1/2）)
+###### Unityとは(1/2)
+---?image=assets/img/UnityHome.PNG&size=50%&color=lightgray&opacity=100
 
 [Unity公式サイト](https://unity3d.com/jp)
 
----?image=assets/img/monkey.jpg&size=50%&color=lightgray&opacity=100
 
 - Unityがあれば様々なゲーム機に対応したゲームが作れます
   - iPhone
