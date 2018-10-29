@@ -92,9 +92,8 @@ Unityは無料から使えます
 </p>
 
 <p>
-<a href="https://www.assetstore.unity3d.com/jp/"Unityアセットストア</a<br>
-たくさんの人が無料からアセットを提供しています<br>
-
+  <a href="https://www.assetstore.unity3d.com/jp/"Unityアセットストア</a><br>
+  たくさんの人が無料からアセットを提供しています<br>
 </p>
 
 <p>
@@ -103,7 +102,7 @@ Unityは無料から使えます
 </p>
 @snapend
 
----?image=assets/img/GitUnityPackage.PNG&size=62% auto&position=bottom
+---?image=assets/img/GitUnityPackage.PNG&size=55% auto&position=bottom
 @title[専用アセットをダウンロードする]
 
 @snap[north-west]
@@ -112,7 +111,7 @@ Unityは無料から使えます
 中央の右寄りにある **Download** ボタンを押してダウンロードしてください
 @snapend
 
----?image=assets/img/UnityShortcut.PNG
+---?image=assets/img/UnityShortcut.PNGsize=20% auto
 @title[unityを起動する]
 
 @snap[north-west]
