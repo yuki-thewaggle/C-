@@ -227,10 +227,11 @@ Unityは無料から使えます
 
 @snap[north-west]
 <h2>@size[0.7em](プレハブをインスタンス化する)</h2>
-<b>Assets</b> > <b>_Prefabs</b> にある以下のものを<br>
-<b>Hierarchy</b>にドラッグ&ドロップしてください
-@snapend
-
+<p>
+  <b>Assets</b> > <b>_Prefabs</b> にある以下のものを<br>
+  <b>Hierarchy</b>にドラッグ&ドロップしてください
+</p>
+<p>
 - BackgroundMusic
 - Floor
 - GameManager
@@ -238,6 +239,8 @@ Unityは無料から使えます
 - MainCamera
 - MiniMapCamera
 - Player
+</p>
+@snapend
 
 ---
 @title[プレハブとインスタンス化]
