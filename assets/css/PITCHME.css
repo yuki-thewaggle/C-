@@ -11,3 +11,8 @@ h6{ font-size: 1em; }
   border: 0;
   box-shadow: none;
 }
+
+section .present
+{
+  background-color: #1b98e0;
+}
