@@ -1,5 +1,6 @@
-### タイピングゲームを作ってみよう
-#### Unityでのタイピングゲーム開発
+@snap[east]
+@title[Unityでタイピングゲームを作ってみよう]
+@snapend
 
 ---?image=assets/img/UnityHome.PNG&opacity=20%
 #### Unity
