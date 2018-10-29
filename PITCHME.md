@@ -17,7 +17,7 @@
 @title[Unityがあれば]
 
 @snap[north-west]
-<h2>@size[0.7em](Unityがあれば)</h3>
+<h2>@size[0.7em](Unityがあれば)</h2>
 様々なゲーム機に対応したゲームが作れます
 @snapend
 
@@ -38,7 +38,7 @@
 @title[Unityで作られたゲームの一例]
 
 @snap[north-west]
-<h2>@size[0.7em](Unityで作られた有名ゲームの一例)</h3>
+<h2>@size[0.7em](Unityで作られた有名ゲームの一例)</h2>
 @snapend
 
 @snap[west]
@@ -69,7 +69,7 @@ Unityは無料から使えます
 @title[Unityをダウンロードしよう(2/2)]
 
 @snap[north-west]
-<h2>@size[0.7em](プランを選ぼう)</h3>
+<h2>@size[0.7em](プランを選ぼう)</h2>
 一番右の <b>Personal</b> が初心者向けです
 @snapend
 
@@ -91,8 +91,7 @@ Unityは無料から使えます
 </p>
 
 <p>
-Unityには<br>
-たくさんの人が無料からアセットを提供する<br>
+Unityにはたくさんの人が無料からアセットを提供する<br>
 <a href="https://www.assetstore.unity3d.com/jp/">アセットストア</a>があります
 </p>
 
@@ -102,13 +101,17 @@ Unityには<br>
 </p>
 @snapend
 
+---?image=assets/img/GitUnityPackage.PNG&size=60% auto&position=bottom
+@title[専用アセットをダウンロードする]
 
----
-### **アセット** をダウンロードする(2/3)
+@snap[north-west]
+<h2>@size[0.7em](専用アセットをダウンロードする)</h2>
+@snapend
 
-#### 専用アセットをダウンロードする
+@snap[west]
+<a href="https://github.com/yuki-thewaggle/EduvationSummit2018/blob/master/TheWaggleTypingGame.unitypackage">こちらのページ</a>にアクセスすると以下の画面が出ます
+@snapend
 
-[こちらのページ](https://github.com/yuki-thewaggle/EduvationSummit2018/blob/master/TheWaggleTypingGame.unitypackage)にアクセスすると以下の画面が出ます
 
 ---
 ### **アセット** をダウンロードする(3/3)
