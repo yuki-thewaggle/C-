@@ -13,7 +13,7 @@
 @snapend
 
 
----?image=assets/img/Gaming.PNG&size=50% auto&position=right bottom
+---?image=assets/img/Gaming.jpg&size=50% auto&position=right bottom
 @title[Unityがあれば]
 
 @snap[north-west]
@@ -21,9 +21,10 @@
 様々なゲーム機に対応したゲームが作れます
 @snapend
 
+@snap[south-west]
 <ul>
   <li>@size[0.7em](iPhone)</li>
-  <li>@size[0.7em]Android)</li>
+  <li>@size[0.7em](Android)</li>
   <li>@size[0.7em](PS4)</li>
   <li>@size[0.7em](PS Vita)</li>
   <li>@size[0.7em](WEB)</li>
@@ -31,7 +32,7 @@
   <li>@size[0.7em](Facebook)</li>
   <li>@size[0.7em](...)</li>
 </ul>
-
+@snapend
 ---
 ### Unityとは(3/3)
 
