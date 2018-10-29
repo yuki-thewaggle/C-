@@ -25,20 +25,20 @@
 @snapend
 
 @snap[south-west]
-@size[0.7em](
-- iPhone
-- Android
-- PS4
-- PS Vita
-- WEB
-- Xbox
-- Facebook
-- ...
-)
+<ul>
+  <li>@size[0.7em](iPhone)</li>
+  <li>@size[0.7em]Android)</li>
+  <li>@size[0.7em](PS4)</li>
+  <li>@size[0.7em](PS Vita)</li>
+  <li>@size[0.7em](WEB)</li>
+  <li>@size[0.7em](Xbox)</li>
+  <li>@size[0.7em](Facebook)</li>
+  <li>@size[0.7em](...)</li>
+</ul>
 @snapend
 
 @snap[south-east sidebar]
-![UnityHome](assets/img/sean-do-782269-unsplash.jpg)
+![UnityHome](assets/img/Gaming.PNG)
 @snapend
 
 ---
