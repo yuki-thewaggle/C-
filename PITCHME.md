@@ -1,12 +1,15 @@
 @snap[east]
-@title[Unityでタイピングゲームを作ってみよう]
+Unityでタイピングゲームを作ってみよう
 @snapend
 
----?image=assets/img/UnityHome.PNG&opacity=20%
+---
 #### Unity
 [https://unity3d.com/jp](https://unity3d.com/jp)
 
 
+@snap[east sidebar]
+![ICECREAM](assets/img/UnityHome.PNG)
+@snapend
 
 ---?image=assets/img/sean-do-782269-unsplash.jpg&opacity=20%
 #### Unityとは(2/3)- Unityがあれば様々なゲーム機に対応したゲームが作れます
