@@ -231,15 +231,15 @@ Unityは無料から使えます
   <b>Assets</b> > <b>_Prefabs</b> にある以下のものを<br>
   <b>Hierarchy</b>にドラッグ&ドロップしてください
 </p>
-<p>
-- BackgroundMusic
-- Floor
-- GameManager
-- HUDCanvas
-- MainCamera
-- MiniMapCamera
-- Player
-</p>
+<ul>
+  <li>BackgroundMusic</li>
+  <li>Floor</li>
+  <li>GameManager</li>
+  <li>HUDCanvas</li>
+  <li>MainCamera</li>
+  <li>MiniMapCamera</li>
+  <li>Player</li>
+</ul>
 @snapend
 
 ---
