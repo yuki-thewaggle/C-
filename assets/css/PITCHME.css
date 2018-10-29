@@ -1,18 +1,13 @@
 body{ font-size: 62.5%; }
-h1{ font-size: 2.5rem; }
-h2{ font-size: 2rem; }
-h3{ font-size: 1.75rem; }
-h4{ font-size: 1.5rem; }
-h5{ font-size: 1.25rem; }
-h6{ font-size: 1em; }
+h1{ font-size: 0.7em; width: 100%; }
+h2{ font-size: 0.7em; }
+h3{ font-size: 0.7em; }
+h4{ font-size: 0.7em; }
+h5{ font-size: 0.7em;; }
+h6{ font-size: 0.7em; }
 
 .reveal section img
 {
   border: 0;
   box-shadow: none;
-}
-
-section .present
-{
-  background-color: #1b98e0;
 }
