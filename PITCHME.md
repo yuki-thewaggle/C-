@@ -138,7 +138,7 @@ Unityは無料から使えます
 </ol>
 @snapend
 
----?image=assets/img/UnityLayout_before.png&size=auto 60%&position=bottom
+---?image=assets/img/UnityLayout_after.png&size=auto 60%&position=bottom
 @title[Unityエディタのレイアウトを設定する]
 
 @snap[north-west]
@@ -157,7 +157,7 @@ Default
 @snapend
 
 @snap[west sidebar]
-![デフォルトのレイアウト](assets/img/fruit-UnityLayout_before.png)
+![デフォルトのレイアウト](assets/img/UnityLayout_before.png)
 @snapend
 
 @snap[north-west]
@@ -165,7 +165,7 @@ Tall
 @snapend
 
 @snap[east sidebar]
-![デフォルトのレイアウト](assets/img/fruit-UnityLayout_after.png)
+![デフォルトのレイアウト](assets/img/UnityLayout_after.png)
 @snapend
 
 
