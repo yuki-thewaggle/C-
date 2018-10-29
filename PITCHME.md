@@ -4,7 +4,7 @@
 <h1>@size[0.7em](Unityで<br>タイピングゲームを<br>作ってみよう)</h1>
 @snapend
 
----
+---?image=assets/img/UnityHome.PNG&size=auto 65%&position=bottom
 @title[Unityとは]
 
 @snap[north-west]
@@ -12,11 +12,8 @@
 <a href="https://unity3d.com/jp">@size[0.7em](Unity公式サイト)</a>
 @snapend
 
-@snap[south-west sidebar]
-![UnityHome](assets/img/UnityHome.PNG)
-@snapend
 
----
+---?image=assets/img/Gaming.PNG&size=50% auto&position=right bottom
 @title[Unityがあれば]
 
 @snap[north-west]
@@ -24,22 +21,16 @@
 様々なゲーム機に対応したゲームが作れます
 @snapend
 
-@snap[south-west]
-@size[0.7em](
-- iPhone
-- Android
-- PS4
-- PS Vita
-- WEB
-- Xbox
-- Facebook
-- ...
-)
-@snapend
-
-@snap[south-east sidebar]
-![UnityHome](assets/img/sean-do-782269-unsplash.jpg)
-@snapend
+<ul>
+  <li>@size[0.7em](iPhone)</li>
+  <li>@size[0.7em]Android)</li>
+  <li>@size[0.7em](PS4)</li>
+  <li>@size[0.7em](PS Vita)</li>
+  <li>@size[0.7em](WEB)</li>
+  <li>@size[0.7em](Xbox)</li>
+  <li>@size[0.7em](Facebook)</li>
+  <li>@size[0.7em](...)</li>
+</ul>
 
 ---
 ### Unityとは(3/3)
