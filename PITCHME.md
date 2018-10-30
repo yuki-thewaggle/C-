@@ -367,13 +367,18 @@ Unityは無料から使えます
 これでエネミーの問題文が新しいデータに変わります
 
 ---
-@title[プレーヤーの設定]
+@title[プレーヤーのスピード設定]
 
-<h2>@size[0.7em](プレーヤーの設定)</h2>
+<h2>@size[0.7em](プレーヤーのスピード設定)</h2>
 
 - プレーヤーの動くスピードを変える
   - **Hierarchy** > **Player** をクリック
   - **Inspector** > **Player Movement Controller** > **Speed**の値を変更する
+
+---
+@title[プレーヤーHPの設定]
+
+<h2>@size[0.7em](プレーヤーのHP設定)</h2>
 
 - プレーヤーのHPを変える
   - **Hierarchy** > **Player** をクリック
@@ -381,7 +386,6 @@ Unityは無料から使えます
   - **Hierarchy** > **HUDCanvas** > **HealthUI** > **HealthSlider** をクリック
   - **Slider** > **MaxValue** を変更した値に変える
   - **Slider** > **Value** を最大値に変える
-  
 
 ---
 @title[エネミーのスピード設定]
