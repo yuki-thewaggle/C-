@@ -321,7 +321,7 @@ LightsとEnvironmentをインスタンス化する
 - プレーヤーの設定
 - エネミーの設定
 - スクリプトを触ってみる
-- インスタンスを作ってみる（MiniMapCamera）
+- ゲームオブジェクトを作ってみる（MiniMapCamera）
 
 ---
 @title[問題文を変えるには]
@@ -359,6 +359,21 @@ LightsとEnvironmentをインスタンス化する
 @title[スクリプトを触ってみる]
 
 <h2>@size[0.7em](スクリプトを触ってみる)</h2>
+
+GameController.cs
+InstanciateEnemy(){}にDebug.Logを入れてみる
+
+---
+@title[ゲームオブジェクトを作ってみる]
+
+<h2>@size[0.7em](MiniMapを作ってみる)</h2>
+
+1. MiniMapCameraのチェックを外す
+1. Hierarchy > Create > Camera
+1. 名前をMiniMapに変更
+1. 各コンポーネントをMiniMapCameraの通りに設定
+1。ちゃんと動くことを確認
+1. プレハブ化
 
 
 
