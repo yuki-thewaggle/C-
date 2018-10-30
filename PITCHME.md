@@ -264,10 +264,10 @@ Unityは無料から使えます
 </p>
 
 ---
-@title[その他の設定 1/3]
+@title[その他の設定 1]
 
 @snap[north-west]
-<h2>@size[0.7em](その他の設定 1/3)</h2>
+<h2>@size[0.7em](その他の設定 1)</h2>
 @snapend
 
 - **Edit** > **ProjectSettings** > **Input** をクリック
@@ -278,9 +278,9 @@ Unityは無料から使えます
   - **Skybox Material** のサークルセレクトをクリックして**NightmaresProceduralSkybox** にする
 
 ---
-@title[その他の設定 2/3]
+@title[その他の設定 2]
 
-<h2>@size[0.7em](その他の設定 2/3)</h2>
+<h2>@size[0.7em](その他の設定 2)</h2>
 
 - シーンを新規作成したときに自動生成される**MainCamera**と**DirectionalLight**を削除する
 
@@ -288,10 +288,10 @@ Unityは無料から使えます
   - レイヤーを**Floor**に設定
 
 ---
-@title[その他の設定 3/3]
+@title[その他の設定 3]
 
 @snap[north-west]
-<h2>@size[0.7em](その他の設定 3/3)</h2>
+<h2>@size[0.7em](その他の設定 3)</h2>
 @snapend
 
 - **Hierarchy** > **NavMeshWalkableFloor** をクリックする
@@ -299,6 +299,22 @@ Unityは無料から使えます
   - **Window** > **AI** > **Navigation** をクリック
   - **Bake** タブにある **Bake** ボタンをクリックする
   - **MeshRenderer**のチェックボックスを**チェックが外れた状態**にする
+
+
+---
+@title[その他の設定 4]
+
+@snap[north-west]
+<h2>@size[0.7em](その他の設定 4)</h2>
+@snapend
+
+- **File** > **Build Settings** をクリックする
+  - **Add Open Scenes** をクリックする
+
+- **Window** > **Rendering** > **Lighting Settings**をクリックする
+  - **Auto Generating** をクリックしてチェックを外す
+  - **Generate Lighting** をクリックする
+
 
 ---
 #### Playする
@@ -372,9 +388,5 @@ InstanciateEnemy(){}にDebug.Logを入れてみる
 1. Hierarchy > Create > Camera
 1. 名前をMiniMapに変更
 1. 各コンポーネントをMiniMapCameraの通りに設定
-1。ちゃんと動くことを確認
+1. ちゃんと動くことを確認
 1. プレハブ化
-
-
-
-  
