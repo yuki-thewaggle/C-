@@ -371,26 +371,30 @@ Unityは無料から使えます
 
 <h2>@size[0.7em](プレーヤーのスピード設定)</h2>
 
-- プレーヤーの動くスピードを変える
-  - **Hierarchy** > **Player** をクリック
-  - **Inspector** > **Player Movement Controller** > **Speed**の値を変更する
+プレーヤーの動くスピードを変える
+
+- **Hierarchy** > **Player** をクリック
+- **Inspector** > **Player Movement Controller** > **Speed**の値を変更する
 
 ---
 @title[プレーヤーHPの設定]
 
 <h2>@size[0.7em](プレーヤーのHP設定)</h2>
 
-- プレーヤーのHPを変える
-  - **Hierarchy** > **Player** をクリック
-  - **Inspector** > **Player Health Controller** > **Starting Health**の値を変更する
-  - **Hierarchy** > **HUDCanvas** > **HealthUI** > **HealthSlider** をクリック
-  - **Slider** > **MaxValue** を変更した値に変える
-  - **Slider** > **Value** を最大値に変える
+プレーヤーのHPを変える
+
+- **Hierarchy** > **Player** をクリック
+- **Inspector** > **Player Health Controller** > **Starting Health**の値を変更する
+- **Hierarchy** > **HUDCanvas** > **HealthUI** > **HealthSlider** をクリック
+- **Slider** > **MaxValue** を変更した値に変える
+- **Slider** > **Value** を最大値に変える
 
 ---
 @title[エネミーのスピード設定]
 
 <h2>@size[0.7em](エネミーのスピード設定)</h2>
+
+エネミーの動くスピードを変える
 
 - **Project** > **Asssets** > **OtherPrefabs** > **Charactors**をクリック
 - スピードを変更したいエネミーをクリック
