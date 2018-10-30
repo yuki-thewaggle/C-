@@ -322,3 +322,44 @@ LightsとEnvironmentをインスタンス化する
 - エネミーの設定
 - スクリプトを触ってみる
 - インスタンスを作ってみる（MiniMapCamera）
+
+---
+@title[問題文を変えるには]
+
+<h2>@size[0.7em](問題文を変えるには)</h2>
+
+- **Project** > **Assets** > **＿Resources** をクリックする
+  - **TypingText** をダブルクリックする
+  - 一行に一単語を入力する
+    - 半角英字（小文字）だけを使う設定になっています
+
+---
+@title[プレーヤーの設定]
+
+<h2>@size[0.7em](プレーヤーの設定)</h2>
+
+- プレーヤーの動くスピードを変える
+  - **Hierarchy** > **Player** をクリック
+  - **Inspector** > **Player Movement Controller** > **Speed**の値を変更する
+- プレーヤーのHPを変える
+  - **Hierarchy** > **Player** をクリック
+  - **Inspector** > **Player Health Controller** > **Starting Health**の値を変更する
+
+---
+@title[エネミーのスピード設定]
+
+<h2>@size[0.7em](エネミーのスピード設定)</h2>
+
+- エネミーの動くスピードを変える
+  - **Project** > **Asssets** > **OtherPrefabs** > **Charactors**をクリック
+  - スピードを変更したいエネミーをクリック
+  - **Inspector** > **Enemy Movement Controller** > **Speed**の値を変更する
+
+---
+@title[スクリプトを触ってみる]
+
+<h2>@size[0.7em](スクリプトを触ってみる)</h2>
+
+
+
+  
