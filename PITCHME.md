@@ -65,7 +65,7 @@ Unityは無料から使えます
 ダウンロードサイト
 [https://store.unity.com/ja](https://store.unity.com/ja)
 
----?image=assets/img/UnityDownload.PNG&size=auto 65%&position=bottom
+---?image=assets/img/UnityDownload.PNG&size=auto 60%&position=bottom
 @title[Unityをダウンロードしよう(2/2)]
 
 @snap[north-west]
@@ -92,10 +92,12 @@ Unityは無料から使えます
 </p>
 
 <p>
-  Unityアセットストア（
+  Unityアセットストア<br>
+  （
   <a href="https://www.assetstore.unity3d.com/jp/">@size[0.7em](https://www.assetstore.unity3d.com/jp/)</a>
-  ）にて<br>
-  たくさんの人が無料からアセットを提供しています<br>
+  ）<br>
+  にて たくさんの人が無料から<br>
+  アセットを提供しています<br>
 </p>
 @snapend
 
@@ -104,7 +106,7 @@ Unityは無料から使えます
 タイピングゲームを作っていきます
 @snapend
 
----?image=assets/img/GitUnityPackage.PNG&size=53% auto&position=bottom
+---?image=assets/img/GitUnityPackage.PNG&size=53% auto&position=bottom right
 @title[専用アセットをダウンロードする]
 
 @snap[north-west]
@@ -114,7 +116,8 @@ Unityは無料から使えます
   @size[0.7em](https://github.com/yuki-thewaggle/EduvationSummit2018/blob/master/TheWaggleTypingGame.unitypackage)
 </a>
 <p>
-  中央の右寄りにある **Download** ボタンを押して<br>
+  中央の右寄りにある<br>
+  **Download** ボタンを押して<br>
   ダウンロードしてください
 </p>
 @snapend
@@ -257,102 +260,110 @@ Unityは無料から使えます
 </p>
 <p>
   <i>Project</i> ウィンドウから <i>Hierarchy</i> ウィンドウに<br>
-  ドラッグ&ドロップすることで実際のオブジェクトになります
+  ドラッグ&ドロップすることで<br>
+  実際のオブジェクトになります
 </p>
 <p>
   この動作を<b>インスタンス化</b>といい<br>
   実体化されたオブジェクトを<b>インスタンス</b>といいます
 </p>
-<p>
-<a href ="https://docs.unity3d.com/ja/current/Manual/Prefabs.html">@size[0.5em](プレハブ)</a><br>
-<a href="https://docs.unity3d.com/ja/current/Manual/InstantiatingPrefabs.html">@size[0.5em](実行時のプレハブのインスタンス化)</a>
-</p>
 
 ---
-@title[その他の設定 1]
+@title[その他の設定1]
 
 @snap[north-west]
-<h2>@size[0.7em](その他の設定 1)</h2>
+<h2>@size[0.7em](その他の設定)</h2>
 @snapend
 
 - **Edit** > **ProjectSettings** > **Input** をクリック
-  - **Axis**  > **Vertical** > **Horizontal** から **a** , **d** を消す
-  - **Axis**  > **Vertical** > **Vercal** から **s** , **w** を消す
+  - **Axis**  > **Vertical** > **Horizontal** から **a** , **d** を消去
+  - **Axis**  > **Vertical** > **Vercal** から **s** , **w** を消去
 
 - **Window** > **Rendering** > **Lighting Settings** をクリック
-  - **Skybox Material** のサークルセレクトをクリックして**NightmaresProceduralSkybox** にする
+  - **Skybox Material** のサークルセレクトをクリック
+  - **NightmaresProceduralSkybox** をダブルクリック
 
 ---
-@title[その他の設定 2]
+@title[その他の設定2]
 
-<h2>@size[0.7em](その他の設定 2)</h2>
+<h2>@size[0.7em](その他の設定)</h2>
 
-- シーンを新規作成したときに自動生成される**MainCamera**と**DirectionalLight**を削除する
-
-- **Hierarchy** > **MousePointingFloor** をクリック
-  - レイヤーを**Floor**に設定
+- **Hierarchy** > **MainCamera** を削除
+- **Hierarchy** > **DirectionalLight** を削除
+- **Inspector** > **Layer** > **Add Layer** をクリック
+  - 空いている一番上の欄に **Floor** と記入
+  - **Hierarchy** > **MousePointingFloor** をクリック
+  - レイヤーを **Floor** に設定
 
 ---
-@title[その他の設定 3]
+@title[その他の設定3]
 
 @snap[north-west]
-<h2>@size[0.7em](その他の設定 3)</h2>
+<h2>@size[0.7em](その他の設定)</h2>
 @snapend
 
-- **Hierarchy** > **NavMeshWalkableFloor** をクリックする
-  - **AddComponent**をクリックして**MeshRenderer**を選択する
+- **Hierarchy** > **NavMeshWalkableFloor** をクリック
+  - **AddComponent**をクリックして**MeshRenderer**を選択
   - **Window** > **AI** > **Navigation** をクリック
   - **Bake** タブにある **Bake** ボタンをクリックする
   - **MeshRenderer**のチェックボックスを**チェックが外れた状態**にする
 
 
 ---
-@title[その他の設定 4]
+@title[その他の設定4]
 
 @snap[north-west]
-<h2>@size[0.7em](その他の設定 4)</h2>
+<h2>@size[0.7em](その他の設定)</h2>
 @snapend
 
 - **File** > **Build Settings** をクリックする
   - **Add Open Scenes** をクリックする
 
-- **Window** > **Rendering** > **Lighting Settings**をクリックする
+---
+@title[動きを確かめる]
+
+<h2>@size[0.7em](動きを確かめる)</h2>
+
+1. **Game** > **Maximize On Play** をクリックする
+1. 動きを確かめる
+  - 矢印キーの押された方向にプレーヤーが動く
+  - マウスのある方向にプレーヤーが向く
+  - 正しくキー入力をするとエネミーの問題文が赤文字に代わる
+  - エネミーの問題文をすべて入力するとエネミーが死ぬ
+  - エネミーはプレーヤーを自動で追いかけ続ける
+  - プレーヤーもエネミーも障害物を避けて進む
+  - プレーヤーのHPが0になるとゲームオーバーになりゲームがリスタートする
+
+---
+@title[問題なければ最後に]
+
+<h2>@size[0.7em](問題なければ最後に)</h2>
+
+1. **Assets** > **＿Prefabs** > **Lights** をインスタンス化
+1. **Assets** > **＿Prefabs** > **Environment** をインスタンス化
+1. **Window** > **Rendering** > **Lighting Settings**をクリックする
   - **Auto Generating** をクリックしてチェックを外す
   - **Generate Lighting** をクリックする
 
+---
+@title[トライしてみよう]
+
+<h2>トライしてみよう</h2>
 
 ---
-#### Playする
+@title[エネミーの問題文を変えるには]
 
-Maximize On PlayをONにする
-動きを確かめる
-(`_MyScene` > `MySceneTest`と同じだったらOK)
+<h2>@size[0.7em](エネミーの問題文を変えるには)</h2>
 
----
-
-#### 問題なければ最後に
-
-LightsとEnvironmentをインスタンス化する
-
----
-
-#### 追記予定
-
-- 問題文を変えるには
-- プレーヤーの設定
-- エネミーの設定
-- スクリプトを触ってみる
-- ゲームオブジェクトを作ってみる（MiniMapCamera）
-
----
-@title[問題文を変えるには]
-
-<h2>@size[0.7em](問題文を変えるには)</h2>
-
-- **Project** > **Assets** > **＿Resources** をクリックする
+1. **Project** > **Assets** > **＿Resources** をクリックする
   - **TypingText** をダブルクリックする
   - 一行に一単語を入力する
-    - 半角英字（小文字）だけを使う設定になっています
+    ※半角英字（小文字）だけを使う設定になっています
+  - 保存する
+1. **Project** > **Assets** > **＿Resources** をクリックする
+  - **Inspector** で新しいデータに書き換わっていることを確認する
+  
+これでエネミーの問題文が新しいデータに変わります
 
 ---
 @title[プレーヤーの設定]
@@ -362,6 +373,7 @@ LightsとEnvironmentをインスタンス化する
 - プレーヤーの動くスピードを変える
   - **Hierarchy** > **Player** をクリック
   - **Inspector** > **Player Movement Controller** > **Speed**の値を変更する
+
 - プレーヤーのHPを変える
   - **Hierarchy** > **Player** をクリック
   - **Inspector** > **Player Health Controller** > **Starting Health**の値を変更する
@@ -371,27 +383,27 @@ LightsとEnvironmentをインスタンス化する
 
 <h2>@size[0.7em](エネミーのスピード設定)</h2>
 
-- エネミーの動くスピードを変える
-  - **Project** > **Asssets** > **OtherPrefabs** > **Charactors**をクリック
-  - スピードを変更したいエネミーをクリック
-  - **Inspector** > **Enemy Movement Controller** > **Speed**の値を変更する
+- **Project** > **Asssets** > **OtherPrefabs** > **Charactors**をクリック
+- スピードを変更したいエネミーをクリック
+- **Inspector** > **Enemy Movement Controller** > **Speed**の値を変更する
 
 ---
 @title[スクリプトを触ってみる]
 
 <h2>@size[0.7em](スクリプトを触ってみる)</h2>
 
-GameController.cs
-InstanciateEnemy(){}にDebug.Logを入れてみる
+**GameController.cs**
+InstanciateEnemy()にDebug.Logを入れてみる
+
 
 ---
 @title[ゲームオブジェクトを作ってみる]
 
 <h2>@size[0.7em](MiniMapを作ってみる)</h2>
 
-1. MiniMapCameraのチェックを外す
-1. Hierarchy > Create > Camera
-1. 名前をMiniMapに変更
-1. 各コンポーネントをMiniMapCameraの通りに設定
+1. **MiniMapCamera** のチェックを外す
+1. **Hierarchy** > **Create** > **Camera** をクリック
+1. 名前を **MiniMap** に変更
+1. 各コンポーネントを **MiniMapCamera** の通りに設定
 1. ちゃんと動くことを確認
 1. プレハブ化
