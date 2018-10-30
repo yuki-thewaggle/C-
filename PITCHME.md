@@ -50,7 +50,8 @@ Unity公式サイト<a href="https://unity3d.com/jp">https://unity3d.com/jp</a>
 @snapend
 
 @snap[south-west]
-<b>モバイルゲーム向けの50%以上</b>が<br>Unityで開発されています
+<b>モバイルゲーム向けの50%以上</b>がUnityで<br>
+開発されています
 @snapend
 
 ---
