@@ -385,7 +385,7 @@ Unityは無料から使えます
 - スピードを変更したいエネミーをクリック
 - **Inspector** > **Enemy Movement Controller** > **Speed**の値を変更する
 
----?image=assets/img/Scripting2.PNG&size=auto 53%&position=bottom
+---?image=assets/img/Scripting2.PNG&size=100% auto&position=bottom
 @title[スクリプトを触ってみる]
 
 @snap[north-west]
