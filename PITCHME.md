@@ -301,7 +301,8 @@ Unityは無料から使えます
 @snapend
 
 - **Hierarchy** > **NavMeshWalkableFloor** をクリック
-  - **AddComponent**をクリックして**MeshRenderer**を選択
+  - **MeshRenderer**のチェックボックスを**チェックがついた状態**にする
+<!--  - **AddComponent**をクリックして**MeshRenderer**を選択-->
   - **Window** > **AI** > **Navigation** をクリック
   - **Bake** タブにある **Bake** ボタンをクリックする
   - **MeshRenderer**のチェックボックスを**チェックが外れた状態**にする
@@ -339,9 +340,11 @@ Unityは無料から使えます
 
 1. **Assets** > **＿Prefabs** > **Lights** をインスタンス化
 1. **Assets** > **＿Prefabs** > **Environment** をインスタンス化
+<!--
 1. **Window** > **Rendering** > **Lighting Settings**をクリックする
   - **Auto Generating** をクリックしてチェックを外す
   - **Generate Lighting** をクリックする
+-->
 
 ---
 @title[トライしてみよう]
