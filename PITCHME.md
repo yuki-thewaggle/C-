@@ -13,7 +13,7 @@
 @snapend
 
 
----?image=assets/img/Gaming.jpg&size=60% auto&position=right bottom
+---?image=assets/img/Gaming.jpg&size=55% auto&position=right bottom
 @title[Unityがあれば]
 
 @snap[north-west]
@@ -95,7 +95,7 @@ Unityは無料から使えます
   <a href="https://www.assetstore.unity3d.com/jp/">Unityアセットストア</a>にて<br>
   たくさんの人が無料からアセットを提供しています<br>
 </p>
-<p></p>
+<div height="20"></div>
 <p>
 今回は専用アセットを使って<br>
 タイピングゲームをつくっていきます
