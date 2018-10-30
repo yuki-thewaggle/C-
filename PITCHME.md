@@ -295,7 +295,7 @@ Unityは無料から使えます
 @snapend
 
 - **Hierarchy** > **NavMeshWalkableFloor** をクリックする
-  - **MeshRenderer**のチェックボックスを**チェックがついた状態**にする
+  - **AddComponent**をクリックして**MeshRenderer**を選択する
   - **Window** > **AI** > **Navigation** をクリック
   - **Bake** タブにある **Bake** ボタンをクリックする
   - **MeshRenderer**のチェックボックスを**チェックが外れた状態**にする
