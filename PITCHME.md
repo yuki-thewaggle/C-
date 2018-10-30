@@ -9,9 +9,8 @@
 
 @snap[north-west]
 <h2>@size[0.7em](Unityとは)</h2>
-<a href="https://unity3d.com/jp">@size[0.7em](Unity公式サイト)</a>
+Unity公式サイト<a href="https://unity3d.com/jp">https://unity3d.com/jp</a>
 @snapend
-
 
 ---?image=assets/img/Gaming.jpg&size=55% auto&position=right bottom
 @title[Unityがあれば]
@@ -92,14 +91,16 @@ Unityは無料から使えます
 </p>
 
 <p>
-  <a href="https://www.assetstore.unity3d.com/jp/">Unityアセットストア</a>にて<br>
+  Unityアセットストア（
+  <a href="https://www.assetstore.unity3d.com/jp/">@size[0.7em](https://www.assetstore.unity3d.com/jp/)</a>
+  ）にて<br>
   たくさんの人が無料からアセットを提供しています<br>
 </p>
-<div height="20"></div>
-<p>
+@snapend
+
+@snap[south-west]
 今回は専用アセットを使って<br>
-タイピングゲームをつくっていきます
-</p>
+タイピングゲームを作っていきます
 @snapend
 
 ---?image=assets/img/GitUnityPackage.PNG&size=53% auto&position=bottom
@@ -107,7 +108,10 @@ Unityは無料から使えます
 
 @snap[north-west]
 <h2>@size[0.7em](専用アセットをダウンロードする)</h2>
-  <a href="https://github.com/yuki-thewaggle/EduvationSummit2018/blob/master/TheWaggleTypingGame.unitypackage">ダウンロードページ</a>
+ダウンロードページ<br>
+<a href="https://github.com/yuki-thewaggle/EduvationSummit2018/blob/master/TheWaggleTypingGame.unitypackage">
+  @size[0.7em](https://github.com/yuki-thewaggle/EduvationSummit2018/blob/master/TheWaggleTypingGame.unitypackage)
+</a>
 <p>
   中央の右寄りにある **Download** ボタンを押して<br>
   ダウンロードしてください
@@ -122,7 +126,7 @@ Unityは無料から使えます
 デスクトップのショートカットをダブルクリックして起動してください
 @snapend
 
----?image=assets/img/CreateNewProject.PNG&size=auto 60%&position=right bottom
+---?image=assets/img/CreateNewProject.PNG&size=auto 53%&position=right bottom
 @title[新規プロジェクトを作成する]
 
 @snap[north-west]
@@ -205,7 +209,7 @@ Unityは無料から使えます
 シーンに名前をつけて保存します
 @snapend
 
----?image=assets/img/SaveScene2.PNG&size=60% auto&position=bottom
+---?image=assets/img/SaveScene2.PNG&size=60% auto
 @title[シーン名を入力する]
 
 @snap[north-west]
