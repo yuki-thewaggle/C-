@@ -391,7 +391,7 @@ Unityは無料から使えます
 @snap[north-west]
 <h2>@size[0.7em](スクリプトを触ってみる)</h2>
 
-<b>GameController.cs</b>
+<b>Assets</b> > <b>Scripts</b> > <b>GameManager</b> > <b>GameController.cs</b><br>
 <i>InstanciateEnemy()</i>に<b>Debug.Log</b>を入れてみる
 @snapend
 
