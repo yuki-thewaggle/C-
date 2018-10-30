@@ -93,9 +93,7 @@ Unityは無料から使えます
 
 <p>
   Unityアセットストア<br>
-  （
-  <a href="https://www.assetstore.unity3d.com/jp/">@size[0.7em](https://www.assetstore.unity3d.com/jp/)</a>
-  ）<br>
+  <a href="https://www.assetstore.unity3d.com/jp/">@size[0.7em](https://www.assetstore.unity3d.com/jp/)</a><br>
   にて たくさんの人が無料から<br>
   アセットを提供しています<br>
 </p>
@@ -387,14 +385,15 @@ Unityは無料から使えます
 - スピードを変更したいエネミーをクリック
 - **Inspector** > **Enemy Movement Controller** > **Speed**の値を変更する
 
----
+---?image=assets/img/Scripting2.PNG&size=100% auto&position=bottom
 @title[スクリプトを触ってみる]
 
+@snap[north-west]
 <h2>@size[0.7em](スクリプトを触ってみる)</h2>
 
-**GameController.cs**
-InstanciateEnemy()にDebug.Logを入れてみる
-
+<b>Assets</b> > <b>Scripts</b> > <b>GameManager</b> > <b>GameController.cs</b><br>
+<i>InstanciateEnemy()</i>に<b>Debug.Log</b>を入れてみる
+@snapend
 
 ---
 @title[ゲームオブジェクトを作ってみる]
