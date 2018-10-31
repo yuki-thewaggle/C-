@@ -210,6 +210,24 @@ Unityは無料から使えます
 新規シーンを作成してください
 @snapend
 
+---
+@title[シーンとは]
+
+<h2>@size[0.7em](シーンとは)</h2>
+
+シーンとは、映画の1シーンの撮影セットのようなもの
+
+舞台があって
+その上にキャラクターや物があって
+それをライトが照らし
+カメラが映し出します
+
+これら全てを
+創ったり配置したりするのがシーンです
+
+シーン上にあるカメラから映し出された映像が
+ゲームの1シーンになります
+
 ---?image=assets/img/SaveScene.png&size=auto 60%&position=bottom
 @title[シーンを保存する]
 
@@ -224,7 +242,7 @@ Unityは無料から使えます
 
 @snap[north-west]
 <h2>@size[0.7em](シーン名を入力する)</h2>
-ファイル名に <b>Main</b> と入力して<br>
+<b>ファイル名</b>に <b>Main</b> と入力して<br>
 <b>保存</b> ボタンをクリックしてください
 @snapend
 
@@ -242,7 +260,7 @@ Unityは無料から使えます
 @snap[north-west]
 <h2>@size[0.7em](プレハブをインスタンス化する)</h2>
 <p>
-  <b>Assets</b> > <b>_Prefabs</b> にある以下のものを<br>
+  <b>Assets</b> > <b>＿Prefabs</b> にある以下のものを<br>
   <b>Hierarchy</b>にドラッグ&ドロップしてください
 </p>
 <ul>
@@ -275,53 +293,73 @@ Unityは無料から使えます
 </p>
 
 ---
-@title[その他の設定1]
+@title[キー入力の設定]
 
-@snap[north-west]
-<h2>@size[0.7em](その他の設定)</h2>
-@snapend
+<h2>@size[0.7em](キー入力の設定)</h2>
+どのキー入力を何の処理として受け付けるかという設定
 
-- **Edit** > **ProjectSettings** > **Input** をクリック
-  - **Axis**  > **Vertical** > **Horizontal** から **a** , **d** を消去
-  - **Axis**  > **Vertical** > **Vercal** から **s** , **w** を消去
+今回は、デフォルト設定の入力処理が
+文字のタイピングと重複しないように消します
 
-- **Window** > **Rendering** > **Lighting Settings** をクリック
-  - **Skybox Material** のサークルセレクトをクリック
-  - **NightmaresProceduralSkybox** をダブルクリック
+  - **Edit** > **ProjectSettings** > **Input** をクリック
+    - **Axis**  > **Vertical** > **Horizontal** から **a** , **d** を消去
+    - **Axis**  > **Vertical** > **Vercal** から **s** , **w** を消去
 
 ---
-@title[その他の設定2]
+@title[スカイボックスの設定]
 
-<h2>@size[0.7em](その他の設定)</h2>
+@snap[north-west]
+<h2>@size[0.7em](スカイボックスの設定)</h2>
+@snapend
+
+  - **Window** > **Rendering** > **Lighting Settings** をクリック
+    - **Skybox Material** のサークルセレクトをクリック
+    - **NightmaresProceduralSkybox** をダブルクリック
+
+---
+@title[レイヤーの設定]
+<h2>@size[0.7em](レイヤーの設定)</h2>
+レイヤーとはゲームオブジェクトのグループ分けをするもの
+
+今回は、マウスの位置を取得するためのオブジェクトを
+レイヤーを利用して設定します
+
+  - **Inspector** > **Layer** > **Add Layer** をクリック
+    - 空いている一番上の欄に **Floor** と記入
+    - **Hierarchy** > **Floor** > **MousePointingFloor** をクリック
+    - レイヤーを **Floor** に設定
+
+  ---
+@title[ナビメッシュの設定]
+
+<h2>@size[0.7em](ナビメッシュの設定)</h2>
+ナビメッシュとはゲームオブジェクトが動く経路を
+自動探索させるために設定する可動範囲のこと
+
+  - **Hierarchy** > **Floor** > **NavMeshWalkableFloor** をクリック
+    - **MeshRenderer** のチェックボックスを **チェックがついた状態** にする
+  <!--  - **AddComponent** をクリックして **MeshRenderer** を選択-->
+    - **Window** > **AI** > **Navigation** をクリック
+    - **Bake** タブにある **Bake** ボタンをクリックする
+    - **MeshRenderer** のチェックボックスを **チェックが外れた状態** にする
+
+---
+@title[MainCameraとDirectionalLightの削除]
+
+<h2>@size[0.7em](MainCameraとDirectionalLightの削除)</h2>
+シーンを新規作成したときに
+デフォルトで生成されていたカメラとライトを
+右クリックして **Delete** する
 
 - **Hierarchy** > **MainCamera** を削除
 - **Hierarchy** > **DirectionalLight** を削除
-- **Inspector** > **Layer** > **Add Layer** をクリック
-  - 空いている一番上の欄に **Floor** と記入
-  - **Hierarchy** > **MousePointingFloor** をクリック
-  - レイヤーを **Floor** に設定
 
 ---
-@title[その他の設定3]
+@title[シーンをリロードできるように設定]
 
-@snap[north-west]
-<h2>@size[0.7em](その他の設定)</h2>
-@snapend
-
-- **Hierarchy** > **NavMeshWalkableFloor** をクリック
-  - **MeshRenderer**のチェックボックスを**チェックがついた状態**にする
-<!--  - **AddComponent**をクリックして**MeshRenderer**を選択-->
-  - **Window** > **AI** > **Navigation** をクリック
-  - **Bake** タブにある **Bake** ボタンをクリックする
-  - **MeshRenderer**のチェックボックスを**チェックが外れた状態**にする
-
-
----
-@title[その他の設定4]
-
-@snap[north-west]
-<h2>@size[0.7em](その他の設定)</h2>
-@snapend
+<h2>@size[0.7em](シーンをリロードできるように設定)</h2>
+ゲームオーバーになったときに
+シーンがリロードされるように設定する
 
 - **File** > **Build Settings** をクリックする
   - **Add Open Scenes** をクリックする
@@ -339,7 +377,7 @@ Unityは無料から使えます
   - @size[0.7em](正しくキー入力をするとエネミーの問題文が赤文字に代わる)
   - @size[0.7em](エネミーの問題文をすべて入力するとエネミーが死ぬ)
   - @size[0.7em](エネミーはプレーヤーを自動で追いかけ続ける)
-  - @size[0.7em](プレーヤーもエネミーも障害物を避けて進む)
+<!--  - @size[0.7em](プレーヤーもエネミーも障害物を避けて進む)-->
   - @size[0.7em](プレーヤーのHPが0になるとゲームオーバーになり リスタートする)
 
 ---
@@ -347,8 +385,8 @@ Unityは無料から使えます
 
 <h2>@size[0.7em](問題なければ最後に)</h2>
 
-1. **Assets** > **＿Prefabs** > **Lights** をインスタンス化
-1. **Assets** > **＿Prefabs** > **Environment** をインスタンス化
+1. **Project** > **Assets** > **＿Prefabs** > **Lights** をインスタンス化
+1. **Project** > **Assets** > **＿Prefabs** > **Environment** をインスタンス化
 
 <!--1. **Window** > **Rendering** > **Lighting Settings**をクリックする-->
 <!--  - **Auto Generating** をクリックしてチェックを外す-->
@@ -371,18 +409,8 @@ Unityは無料から使えます
   - 保存する
 1. **Project** > **Assets** > **＿Resources** をクリックする
   - **Inspector** で新しいデータに書き換わっていることを確認する
-  
+
 これでエネミーの問題文が新しいデータに変わります
-
----
-@title[プレーヤーのスピード設定]
-
-<h2>@size[0.7em](プレーヤーのスピード設定)</h2>
-
-プレーヤーの動くスピードを変える
-
-- **Hierarchy** > **Player** をクリック
-- **Inspector** > **Player Movement Controller** > **Speed**の値を変更する
 
 ---
 @title[プレーヤーHPの設定]
@@ -392,10 +420,20 @@ Unityは無料から使えます
 プレーヤーのHPを変える
 
 - **Hierarchy** > **Player** をクリック
-- **Inspector** > **Player Health Controller** > **Starting Health**の値を変更する
+- **Inspector** > **Player Health Controller** > **Starting Health** の値を変更する
 - **Hierarchy** > **HUDCanvas** > **HealthUI** > **HealthSlider** をクリック
 - **Slider** > **MaxValue** を変更した値に変える
 - **Slider** > **Value** を最大値に変える
+
+---
+@title[プレーヤーのスピード設定]
+
+<h2>@size[0.7em](プレーヤーのスピード設定)</h2>
+
+プレーヤーの動くスピードを変える
+
+- **Hierarchy** > **Player** をクリック
+- **Inspector** > **Player Movement Controller** > **Speed** の値を変更する
 
 ---
 @title[エネミーのスピード設定]
@@ -404,9 +442,9 @@ Unityは無料から使えます
 
 エネミーの動くスピードを変える
 
-- **Project** > **Asssets** > **OtherPrefabs** > **Charactors**をクリック
+- **Project** > **Asssets** > **OtherPrefabs** > **Charactors** をクリック
 - スピードを変更したいエネミーをクリック
-- **Inspector** > **Enemy Movement Controller** > **Speed**の値を変更する
+- **Inspector** > **Enemy Movement Controller** > **Speed** の値を変更する
 
 ---?image=assets/img/Scripting2.PNG&size=100% auto&position=bottom
 @title[スクリプトを触ってみる]
