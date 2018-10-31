@@ -465,5 +465,5 @@ Unityは無料から使えます
 1. **Hierarchy** > **MiniMapCamera** をクリックして **Inspector** 内の一番上にあるチェックを外す
 1. **Hierarchy** > **Create** > **Camera** をクリック
 1. 名前を **MiniMap** に変更
-1.**Inspector**の全ての値を **MiniMapCamera** の通りに設定
+1. **Inspector**の全ての値を **MiniMapCamera** の通りに設定
 1. 全体を真上から移すカメラとして動いていることを確認
