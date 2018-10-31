@@ -160,7 +160,7 @@ Unityは無料から使えます
 <b>Window</b> > <b>Layouts</b> > <b>Tall</b> を選択してください
 @snapend
 
----?image=assets/img/ImportPackage0.png&size=auto 70%&position=bottom
+---?image=assets/img/ImportPackage0.png&size=auto 55%&position=bottom
 @title[アセットを選択する1]
 
 @snap[north-west]
