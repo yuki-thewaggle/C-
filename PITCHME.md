@@ -347,12 +347,13 @@ Unityは無料から使えます
 @title[MainCameraとDirectionalLightの削除]
 
 <h2>@size[0.7em](MainCameraとDirectionalLightの削除)</h2>
+
 シーンを新規作成したときに
 デフォルトで生成されていたカメラとライトを
 右クリックして **Delete** する
 
-- **Hierarchy** > **MainCamera** を削除
-- **Hierarchy** > **DirectionalLight** を削除
+  - **Hierarchy** > **MainCamera** を削除
+  - **Hierarchy** > **DirectionalLight** を削除
 
 ---
 @title[シーンをリロードできるように設定]
@@ -361,8 +362,8 @@ Unityは無料から使えます
 ゲームオーバーになったときに
 シーンがリロードされるように設定する
 
-- **File** > **Build Settings** をクリックする
-  - **Add Open Scenes** をクリックする
+  - **File** > **Build Settings** をクリックする
+    - **Add Open Scenes** をクリックする
 
 ---
 @title[動きを確かめる]
