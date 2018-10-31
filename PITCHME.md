@@ -329,7 +329,7 @@ Unityは無料から使えます
     - **Hierarchy** > **Floor** > **MousePointingFloor** をクリック
     - レイヤーを **Floor** に設定
 
-  ---
+---
 @title[ナビメッシュの設定]
 
 <h2>@size[0.7em](ナビメッシュの設定)</h2>
