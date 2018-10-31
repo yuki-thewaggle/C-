@@ -160,11 +160,19 @@ Unityは無料から使えます
 <b>Window</b> > <b>Layouts</b> > <b>Tall</b> を選択してください
 @snapend
 
----
-@title[アセットを選択する]
+---?image=assets/img/ImportPackage0.png&size=auto 70%&position=bottom
+@title[アセットを選択する1]
 
 @snap[north-west]
-<h2>@size[0.7em](アセットを選択する)</h2>
+<h2>@size[0.7em](アセットを選択する1)</h2>
+<b>Assets</b> > <b>ImportPackage</b> > <b>CustomPackage...</b> をクリックしてください
+@snapend
+
+---
+@title[アセットを選択する2]
+
+@snap[north-west]
+<h2>@size[0.7em](アセットを選択する2)</h2>
 
 <p>
 <b>TheWaggleTypingGame.unitypackage</b> を選択して
