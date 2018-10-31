@@ -55,7 +55,7 @@ Unity公式サイト<a href="https://unity3d.com/jp">https://unity3d.com/jp</a>
 @snapend
 
 ---
-@title[Unityをダウンロードしよう(1/2)]
+@title[Unityをダウンロードしよう]
 
 @snap[north-west]
 <h2>@size[0.7em](Unityをダウンロードしよう)</h3>
@@ -66,7 +66,7 @@ Unityは無料から使えます
 [https://store.unity.com/ja](https://store.unity.com/ja)
 
 ---?image=assets/img/UnityDownload.PNG&size=auto 60%&position=bottom
-@title[Unityをダウンロードしよう(2/2)]
+@title[プランを選ぼう]
 
 @snap[north-west]
 <h2>@size[0.7em](プランを選ぼう)</h2>
