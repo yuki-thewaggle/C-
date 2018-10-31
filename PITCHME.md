@@ -420,11 +420,11 @@ Unityは無料から使えます
 
 プレーヤーのHPを変える
 
-- **Hierarchy** > **Player** をクリック
-- **Inspector** > **Player Health Controller** > **Starting Health** の値を変更する
-- **Hierarchy** > **HUDCanvas** > **HealthUI** > **HealthSlider** をクリック
-- **Slider** > **MaxValue** を変更した値に変える
-- **Slider** > **Value** を最大値に変える
+1. **Hierarchy** > **Player** をクリック
+  - **Inspector** > **Player Health Controller** > **Starting Health** の値を変更する
+1. **Hierarchy** > **HUDCanvas** > **HealthUI** > **HealthSlider** をクリック
+  - **Slider** > **MaxValue** を変更した値に変える
+  - **Slider** > **Value** を最大値に変える
 
 ---
 @title[プレーヤーのスピード設定]
@@ -433,8 +433,8 @@ Unityは無料から使えます
 
 プレーヤーの動くスピードを変える
 
-- **Hierarchy** > **Player** をクリック
-- **Inspector** > **Player Movement Controller** > **Speed** の値を変更する
+1. **Hierarchy** > **Player** をクリック
+1. **Inspector** > **Player Movement Controller** > **Speed** の値を変更する
 
 ---
 @title[エネミーのスピード設定]
@@ -443,9 +443,9 @@ Unityは無料から使えます
 
 エネミーの動くスピードを変える
 
-- **Project** > **Asssets** > **OtherPrefabs** > **Charactors** をクリック
-- スピードを変更したいエネミーをクリック
-- **Inspector** > **Enemy Movement Controller** > **Speed** の値を変更する
+1. **Project** > **Assets** > **OtherPrefabs** > **Charactors** をクリック
+1. スピードを変更したいエネミーをクリック
+1. **Inspector** > **Enemy Movement Controller** > **Speed** の値を変更する
 
 ---?image=assets/img/Scripting2.PNG&size=100% auto&position=bottom
 @title[スクリプトを触ってみる]
@@ -453,8 +453,8 @@ Unityは無料から使えます
 @snap[north-west]
 <h2>@size[0.7em](スクリプトを触ってみる)</h2>
 
-<b>Assets</b> > <b>Scripts</b> > <b>GameManager</b> > <b>GameController.cs</b><br>
-<i>InstanciateEnemy()</i>に<b>Debug.Log</b>を入れてみる
+<b>Assets</b> > <b>Scripts</b> > <b>GameManager</b> > <b>GameController.cs</b> をダブルクリックして<br>
+画像の通りに104行目に<b>Debug.Log()</b>を入れてみる
 @snapend
 
 ---
@@ -462,9 +462,8 @@ Unityは無料から使えます
 
 <h2>@size[0.7em](MiniMapを作ってみる)</h2>
 
-1. **MiniMapCamera** のチェックを外す
+1. **Hierarchy** > **MiniMapCamera** をクリックして **Inspector** 内の一番上にあるチェックを外す
 1. **Hierarchy** > **Create** > **Camera** をクリック
 1. 名前を **MiniMap** に変更
-1. 各コンポーネントを **MiniMapCamera** の通りに設定
-1. ちゃんと動くことを確認
-1. プレハブ化
+1.**Inspector**の全ての値を **MiniMapCamera** の通りに設定
+1. 全体を真上から移すカメラとして動いていることを確認
